@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hockey Results Visualization</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #e6ffe6;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      background: #e3e8f0;
+      color: #2d3748;
+      padding: 1em 0;
+      margin-bottom: 1em;
+      text-align: center;
+      border-bottom: 1px solid #cbd5e1;
+    }
+    table {
+      border-collapse: collapse;
+      margin-bottom: 2em;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th, td {
+      border: 1px solid #e2e8f0;
+      padding: 8px 14px;
+      text-align: left;
+    }
+    th {
+      background: #edf2f7;
+      color: #2d3748;
+    }
+    tr:nth-child(even) td {
+      background: #f7fafc;
+    }
+    .round-title {
+      font-weight: bold;
+      margin-top: 2em;
+      color: #4a5568;
+      font-size: 1.2em;
+      background: #e3e8f0;
+      padding: 0.5em 0.5em 0.5em 0;
+      border-radius: 4px;
+    }
+    #schedule, #tables {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- Logo and heading side by side -->
+  <div style="display:flex; align-items:center; justify-content:center; margin-top:1em;">
+    <img src="ksk.png" alt="KSK Logo" style="max-width:90px; height:auto; margin-right:24px;" />
+    <h1 style="margin:0;">Hockey Results & Standings</h1>
+  </div>
+  <div id="schedule"></div>
+  <div id="tables"></div>
+
+  <script>
+    // Load JSON files and render
+    // Render the schedule/results table
+    // Adds an empty line (a table row with a blank cell) above each round row except for round 1
+    function renderSchedule(data) {
+      if (!data.length) return;
+      let html = '<h2>Schedule & Results</h2><table><tr>';
+      html += '<th>Round</th><th>Date</th><th>Game</th><th>Result</th><th>Spectators</th><th>Venue</th></tr>';
+      for (const row of data) {
+        // Insert empty line above round row except for round 1
+        if (row.Round && row.Round !== '1') {
+          html += '<tr><td colspan="6">&nbsp;</td></tr>'; // Visual separation between rounds
+        }
+        // Render the actual round/game row
+        html += `<tr><td>${row.Round}</td><td>${row.Date}</td><td>${row.Game}</td><td>${row.Result}</td><td>${row.Spectators}</td><td>${row.Venue}</td></tr>`;
+      }
+      html += '</table>';
+      // Insert the rendered HTML into the schedule div
+      document.getElementById('schedule').innerHTML = html;
+    }
+
+    // Render the points tables for each round
+    function renderPointsTables(tables) {
+      let html = '';
+      for (const table of tables) {
+        // Add round title
+        html += `<div class="round-title">${table.title}</div>`;
+        // Render points table
+        html += '<table><tr><th>Team</th><th>GP</th><th>W</th><th>T</th><th>L</th><th>GF:GA (diff)</th><th>Points</th></tr>';
+        for (const row of table.rows) {
+          html += `<tr><td>${row.Team}</td><td>${row.GP}</td><td>${row.W}</td><td>${row.T}</td><td>${row.L}</td><td>${row.GFGA}</td><td>${row.Points}</td></tr>`;
+        }
+        html += '</table>';
+      }
+      // Insert the rendered HTML into the tables div
+      document.getElementById('tables').innerHTML = html;
+    }
+
+    // Fetch and render both JSON files
+    // Fetch and render both JSON files
+    Promise.all([
+      fetch('results.json').then(r => r.json()),
+      fetch('points_tables.json').then(r => r.json())
+    ]).then(([scheduleData, pointsTables]) => {
+      renderSchedule(scheduleData); // Render schedule/results table
+      renderPointsTables(pointsTables); // Render points tables
+    }).catch(err => {
+      // Show error if data loading fails
+      document.getElementById('schedule').innerHTML = '<p>Error loading data.</p>';
+      document.getElementById('tables').innerHTML = '';
+      console.error(err);
+    });
+  </script>
+</body>
+</html>

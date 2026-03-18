@@ -1,0 +1,450 @@
+[
+  {
+    "Round": "1",
+    "Date": "2025-12-06 14:00",
+    "Game": "Hovås HC\n             - \n            Rönnängs IK",
+    "Result": "2 - 5",
+    "Spectators": "75",
+    "Venue": "Askims Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2025-12-06 16:30",
+    "Game": "Bäcken HC\n             - \n            Frölunda HC N",
+    "Result": "4 - 6",
+    "Spectators": "",
+    "Venue": "Marconihallen"
+  },
+  {
+    "Round": "",
+    "Date": "2025-12-06 16:30",
+    "Game": "Kållered SK\n             - \n            Lerums BK",
+    "Result": "0 - 7",
+    "Spectators": "",
+    "Venue": "Kållereds Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2025-12-06 19:30",
+    "Game": "IF Mölndal Hockey\n             - \n            Härryda HC",
+    "Result": "3 - 4",
+    "Spectators": "",
+    "Venue": "Åby Ishall"
+  },
+  {
+    "Round": "2",
+    "Date": "2025-12-12 20:00",
+    "Game": "Lerums BK\n             - \n            Bäcken HC",
+    "Result": "3 - 2",
+    "Spectators": "",
+    "Venue": "Vättlehallen"
+  },
+  {
+    "Round": "",
+    "Date": "2025-12-13 17:00",
+    "Game": "Frölunda HC N\n             - \n            IF Mölndal Hockey",
+    "Result": "10 - 4",
+    "Spectators": "",
+    "Venue": "Rambergsrinken"
+  },
+  {
+    "Round": "",
+    "Date": "2025-12-13 18:30",
+    "Game": "Rönnängs IK\n             - \n            Kållered SK",
+    "Result": "3 - 1",
+    "Spectators": "",
+    "Venue": "Tjörns Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2025-12-13 20:00",
+    "Game": "Härryda HC \n             - \n            Hovås HC",
+    "Result": "6 - 2",
+    "Spectators": "100",
+    "Venue": "Landvetters Ishall"
+  },
+  {
+    "Round": "3",
+    "Date": "2025-12-20 14:00",
+    "Game": "Hovås HC\n             - \n            IF Mölndal Hockey",
+    "Result": "3 - 1",
+    "Spectators": "73",
+    "Venue": "Askims Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2025-12-20 16:30",
+    "Game": "Kållered SK\n             - \n            Härryda HC",
+    "Result": "2 - 3",
+    "Spectators": "",
+    "Venue": "Kållereds Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2025-12-20 16:30",
+    "Game": "Frölunda HC N\n             - \n            Lerums BK",
+    "Result": "5 - 3",
+    "Spectators": "",
+    "Venue": "Valhallarinken"
+  },
+  {
+    "Round": "",
+    "Date": "2025-12-20 18:30",
+    "Game": "Bäcken HC\n             - \n            Rönnängs IK",
+    "Result": "4 - 2",
+    "Spectators": "40",
+    "Venue": "Marconihallen"
+  },
+  {
+    "Round": "4",
+    "Date": "2026-01-10 11:15",
+    "Game": "IF Mölndal Hockey\n             - \n            Kållered SK",
+    "Result": "2 - 4",
+    "Spectators": "",
+    "Venue": "Åby Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2026-01-10 18:30",
+    "Game": "Frölunda HC N\n             - \n            Hovås HC",
+    "Result": "8 - 2",
+    "Spectators": "",
+    "Venue": "Rambergsrinken"
+  },
+  {
+    "Round": "",
+    "Date": "2026-01-10 19:30",
+    "Game": "Härryda HC \n             - \n            Bäcken HC",
+    "Result": "2 - 3",
+    "Spectators": "",
+    "Venue": "Landvetters Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2026-03-11 19:00",
+    "Game": "Rönnängs IK\n             - \n            Lerums BK",
+    "Result": "4 - 4",
+    "Spectators": "",
+    "Venue": "Tjörns Ishall"
+  },
+  {
+    "Round": "5",
+    "Date": "2026-01-17 16:30",
+    "Game": "Hovås HC\n             - \n            Lerums BK",
+    "Result": "2 - 6",
+    "Spectators": "45",
+    "Venue": "Askims Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2026-01-17 18:30",
+    "Game": "Bäcken HC\n             - \n            Kållered SK",
+    "Result": "4 - 1",
+    "Spectators": "",
+    "Venue": "Marconihallen"
+  },
+  {
+    "Round": "",
+    "Date": "2026-01-17 19:30",
+    "Game": "IF Mölndal Hockey\n             - \n            Rönnängs IK",
+    "Result": "3 - 5",
+    "Spectators": "",
+    "Venue": "Åby Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2026-01-17 20:00",
+    "Game": "Härryda HC \n             - \n            Frölunda HC N",
+    "Result": "1 - 3",
+    "Spectators": "",
+    "Venue": "Landvetters Ishall"
+  },
+  {
+    "Round": "6",
+    "Date": "2026-01-24 11:30",
+    "Game": "Bäcken HC\n             - \n            IF Mölndal Hockey",
+    "Result": "4 - 3",
+    "Spectators": "",
+    "Venue": "Marconihallen"
+  },
+  {
+    "Round": "",
+    "Date": "2026-01-24 16:00",
+    "Game": "Rönnängs IK\n             - \n            Frölunda HC N",
+    "Result": "5 - 1",
+    "Spectators": "35",
+    "Venue": "Tjörns Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2026-01-24 17:30",
+    "Game": "Lerums BK\n             - \n            Härryda HC",
+    "Result": "1 - 3",
+    "Spectators": "",
+    "Venue": "Vättlehallen"
+  },
+  {
+    "Round": "",
+    "Date": "2026-01-24 19:30",
+    "Game": "Kållered SK\n             - \n            Hovås HC",
+    "Result": "0 - 3",
+    "Spectators": "",
+    "Venue": "Kållereds Ishall"
+  },
+  {
+    "Round": "7",
+    "Date": "2026-01-31 16:30",
+    "Game": "IF Mölndal Hockey\n             - \n            Lerums BK",
+    "Result": "2 - 7",
+    "Spectators": "",
+    "Venue": "Åby Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2026-01-31 17:00",
+    "Game": "Frölunda HC N\n             - \n            Kållered SK",
+    "Result": "5 - 4",
+    "Spectators": "",
+    "Venue": "Rambergsrinken"
+  },
+  {
+    "Round": "",
+    "Date": "2026-01-31 18:30",
+    "Game": "Härryda HC \n             - \n            Rönnängs IK",
+    "Result": "4 - 1",
+    "Spectators": "",
+    "Venue": "Landvetters Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2026-01-31 18:30",
+    "Game": "Hovås HC\n             - \n            Bäcken HC",
+    "Result": "0 - 0",
+    "Spectators": "43",
+    "Venue": "Askims Ishall"
+  },
+  {
+    "Round": "8",
+    "Date": "2026-02-04 19:30",
+    "Game": "Frölunda HC N\n             - \n            Bäcken HC",
+    "Result": "4 - 3",
+    "Spectators": "",
+    "Venue": "Valhallarinken"
+  },
+  {
+    "Round": "",
+    "Date": "2026-02-06 20:00",
+    "Game": "Lerums BK\n             - \n            Kållered SK",
+    "Result": "6 - 1",
+    "Spectators": "",
+    "Venue": "Vättlehallen"
+  },
+  {
+    "Round": "",
+    "Date": "2026-02-07 18:00",
+    "Game": "Härryda HC \n             - \n            IF Mölndal Hockey",
+    "Result": "5 - 0",
+    "Spectators": "",
+    "Venue": "Landvetters Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2026-02-20 19:30",
+    "Game": "Rönnängs IK\n             - \n            Hovås HC",
+    "Result": "0 - 3",
+    "Spectators": "",
+    "Venue": "Tjörns Ishall"
+  },
+  {
+    "Round": "9",
+    "Date": "2026-02-01 13:30",
+    "Game": "IF Mölndal Hockey\n             - \n            Frölunda HC N",
+    "Result": "0 - 8",
+    "Spectators": "",
+    "Venue": "Åby Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2026-02-17 19:30",
+    "Game": "Hovås HC\n             - \n            Härryda HC",
+    "Result": "2 - 3",
+    "Spectators": "58",
+    "Venue": "Askims Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2026-03-10 19:00",
+    "Game": "Bäcken HC\n             - \n            Lerums BK",
+    "Result": "5 - 5",
+    "Spectators": "53",
+    "Venue": "Marconihallen"
+  },
+  {
+    "Round": "",
+    "Date": "2026-03-13 19:30",
+    "Game": "Kållered SK\n             - \n            Rönnängs IK",
+    "Result": "6 - 3",
+    "Spectators": "",
+    "Venue": "Kållereds Ishall"
+  },
+  {
+    "Round": "10",
+    "Date": "2026-02-21 11:30",
+    "Game": "IF Mölndal Hockey\n             - \n            Hovås HC",
+    "Result": "2 - 13",
+    "Spectators": "",
+    "Venue": "Kållereds Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2026-02-21 18:00",
+    "Game": "Härryda HC \n             - \n            Kållered SK",
+    "Result": "2 - 2",
+    "Spectators": "",
+    "Venue": "Landvetters Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2026-02-21 18:30",
+    "Game": "Rönnängs IK\n             - \n            Bäcken HC",
+    "Result": "4 - 0",
+    "Spectators": "",
+    "Venue": "Tjörns Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2026-02-21 19:00",
+    "Game": "Lerums BK\n             - \n            Frölunda HC N",
+    "Result": "7 - 4",
+    "Spectators": "",
+    "Venue": "Vättlehallen"
+  },
+  {
+    "Round": "11",
+    "Date": "2026-02-28 11:30",
+    "Game": "Bäcken HC\n             - \n            Härryda HC",
+    "Result": "2 - 1",
+    "Spectators": "25",
+    "Venue": "Marconihallen"
+  },
+  {
+    "Round": "",
+    "Date": "2026-02-28 12:00",
+    "Game": "Lerums BK\n             - \n            Rönnängs IK",
+    "Result": "4 - 1",
+    "Spectators": "",
+    "Venue": "Vättlehallen"
+  },
+  {
+    "Round": "",
+    "Date": "2026-02-28 14:00",
+    "Game": "Hovås HC\n             - \n            Frölunda HC N",
+    "Result": "5 - 12",
+    "Spectators": "40",
+    "Venue": "Askims Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2026-03-01 13:30",
+    "Game": "Kållered SK\n             - \n            IF Mölndal Hockey",
+    "Result": "3 - 2",
+    "Spectators": "",
+    "Venue": "Kållereds Ishall"
+  },
+  {
+    "Round": "12",
+    "Date": "2026-03-07 16:00",
+    "Game": "Rönnängs IK\n             - \n            IF Mölndal Hockey",
+    "Result": "3 - 5",
+    "Spectators": "",
+    "Venue": "Tjörns Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2026-03-07 16:30",
+    "Game": "Kållered SK\n             - \n            Bäcken HC",
+    "Result": "0 - 0",
+    "Spectators": "",
+    "Venue": "Kållereds Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2026-03-07 17:00",
+    "Game": "Frölunda HC N\n             - \n            Härryda HC",
+    "Result": "4 - 2",
+    "Spectators": "67",
+    "Venue": "Rambergsrinken"
+  },
+  {
+    "Round": "",
+    "Date": "2026-03-07 19:00",
+    "Game": "Lerums BK\n             - \n            Hovås HC",
+    "Result": "3 - 4",
+    "Spectators": "",
+    "Venue": "Vättlehallen"
+  },
+  {
+    "Round": "13",
+    "Date": "2026-03-14 11:15",
+    "Game": "IF Mölndal Hockey\n             - \n            Bäcken HC",
+    "Result": "0 - 10",
+    "Spectators": "",
+    "Venue": "Åby Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2026-03-14 17:00",
+    "Game": "Härryda HC \n             - \n            Lerums BK",
+    "Result": "0 - 3",
+    "Spectators": "",
+    "Venue": "Landvetters Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2026-03-14 17:20",
+    "Game": "Frölunda HC N\n             - \n            Rönnängs IK",
+    "Result": "2 - 1",
+    "Spectators": "",
+    "Venue": "Valhallarinken"
+  },
+  {
+    "Round": "",
+    "Date": "2026-03-14 12:00",
+    "Game": "Hovås HC\n             - \n            Kållered SK",
+    "Result": "1 - 1",
+    "Spectators": "74",
+    "Venue": "Askims Ishall"
+  },
+  {
+    "Round": "14",
+    "Date": "2026-02-27 18:30",
+    "Game": "Rönnängs IK\n             - \n            Härryda HC",
+    "Result": "0 - 10",
+    "Spectators": "",
+    "Venue": "Tjörns Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2026-03-17 19:00",
+    "Game": "Kållered SK\n             - \n            Frölunda HC N",
+    "Result": "2 - 4",
+    "Spectators": "",
+    "Venue": "Kållereds Ishall"
+  },
+  {
+    "Round": "",
+    "Date": "2026-03-18 19:00",
+    "Game": "Bäcken HC\n             - \n            Hovås HC",
+    "Result": "",
+    "Spectators": "",
+    "Venue": "Marconihallen"
+  },
+  {
+    "Round": "",
+    "Date": "2026-03-21 19:30",
+    "Game": "Lerums BK\n             - \n            IF Mölndal Hockey",
+    "Result": "",
+    "Spectators": "",
+    "Venue": "Vättlehallen"
+  }
+]

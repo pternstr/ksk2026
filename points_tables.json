@@ -1,0 +1,1080 @@
+[
+  {
+    "title": "Points Table After Round 1",
+    "rows": [
+      {
+        "Team": "Lerums BK",
+        "GP": 1,
+        "W": 1,
+        "T": 0,
+        "L": 0,
+        "GFGA": "7:0 (+7)",
+        "Points": 2
+      },
+      {
+        "Team": "Rönnängs IK",
+        "GP": 1,
+        "W": 1,
+        "T": 0,
+        "L": 0,
+        "GFGA": "5:2 (+3)",
+        "Points": 2
+      },
+      {
+        "Team": "Frölunda HC N",
+        "GP": 1,
+        "W": 1,
+        "T": 0,
+        "L": 0,
+        "GFGA": "6:4 (+2)",
+        "Points": 2
+      },
+      {
+        "Team": "Härryda HC",
+        "GP": 1,
+        "W": 1,
+        "T": 0,
+        "L": 0,
+        "GFGA": "4:3 (+1)",
+        "Points": 2
+      },
+      {
+        "Team": "IF Mölndal Hockey",
+        "GP": 1,
+        "W": 0,
+        "T": 0,
+        "L": 1,
+        "GFGA": "3:4 (-1)",
+        "Points": 0
+      },
+      {
+        "Team": "Bäcken HC",
+        "GP": 1,
+        "W": 0,
+        "T": 0,
+        "L": 1,
+        "GFGA": "4:6 (-2)",
+        "Points": 0
+      },
+      {
+        "Team": "Hovås HC",
+        "GP": 1,
+        "W": 0,
+        "T": 0,
+        "L": 1,
+        "GFGA": "2:5 (-3)",
+        "Points": 0
+      },
+      {
+        "Team": "Kållered SK",
+        "GP": 1,
+        "W": 0,
+        "T": 0,
+        "L": 1,
+        "GFGA": "0:7 (-7)",
+        "Points": 0
+      }
+    ]
+  },
+  {
+    "title": "Points Table After Round 2",
+    "rows": [
+      {
+        "Team": "Frölunda HC N",
+        "GP": 2,
+        "W": 2,
+        "T": 0,
+        "L": 0,
+        "GFGA": "16:8 (+8)",
+        "Points": 4
+      },
+      {
+        "Team": "Lerums BK",
+        "GP": 2,
+        "W": 2,
+        "T": 0,
+        "L": 0,
+        "GFGA": "10:2 (+8)",
+        "Points": 4
+      },
+      {
+        "Team": "Rönnängs IK",
+        "GP": 2,
+        "W": 2,
+        "T": 0,
+        "L": 0,
+        "GFGA": "8:3 (+5)",
+        "Points": 4
+      },
+      {
+        "Team": "Härryda HC",
+        "GP": 2,
+        "W": 2,
+        "T": 0,
+        "L": 0,
+        "GFGA": "10:5 (+5)",
+        "Points": 4
+      },
+      {
+        "Team": "Bäcken HC",
+        "GP": 2,
+        "W": 0,
+        "T": 0,
+        "L": 2,
+        "GFGA": "6:9 (-3)",
+        "Points": 0
+      },
+      {
+        "Team": "Hovås HC",
+        "GP": 2,
+        "W": 0,
+        "T": 0,
+        "L": 2,
+        "GFGA": "4:11 (-7)",
+        "Points": 0
+      },
+      {
+        "Team": "IF Mölndal Hockey",
+        "GP": 2,
+        "W": 0,
+        "T": 0,
+        "L": 2,
+        "GFGA": "7:14 (-7)",
+        "Points": 0
+      },
+      {
+        "Team": "Kållered SK",
+        "GP": 2,
+        "W": 0,
+        "T": 0,
+        "L": 2,
+        "GFGA": "1:10 (-9)",
+        "Points": 0
+      }
+    ]
+  },
+  {
+    "title": "Points Table After Round 3",
+    "rows": [
+      {
+        "Team": "Frölunda HC N",
+        "GP": 3,
+        "W": 3,
+        "T": 0,
+        "L": 0,
+        "GFGA": "21:11 (+10)",
+        "Points": 6
+      },
+      {
+        "Team": "Härryda HC",
+        "GP": 3,
+        "W": 3,
+        "T": 0,
+        "L": 0,
+        "GFGA": "13:7 (+6)",
+        "Points": 6
+      },
+      {
+        "Team": "Lerums BK",
+        "GP": 3,
+        "W": 2,
+        "T": 0,
+        "L": 1,
+        "GFGA": "13:7 (+6)",
+        "Points": 4
+      },
+      {
+        "Team": "Rönnängs IK",
+        "GP": 3,
+        "W": 2,
+        "T": 0,
+        "L": 1,
+        "GFGA": "10:7 (+3)",
+        "Points": 4
+      },
+      {
+        "Team": "Bäcken HC",
+        "GP": 3,
+        "W": 1,
+        "T": 0,
+        "L": 2,
+        "GFGA": "10:11 (-1)",
+        "Points": 2
+      },
+      {
+        "Team": "Hovås HC",
+        "GP": 3,
+        "W": 1,
+        "T": 0,
+        "L": 2,
+        "GFGA": "7:12 (-5)",
+        "Points": 2
+      },
+      {
+        "Team": "IF Mölndal Hockey",
+        "GP": 3,
+        "W": 0,
+        "T": 0,
+        "L": 3,
+        "GFGA": "8:17 (-9)",
+        "Points": 0
+      },
+      {
+        "Team": "Kållered SK",
+        "GP": 3,
+        "W": 0,
+        "T": 0,
+        "L": 3,
+        "GFGA": "3:13 (-10)",
+        "Points": 0
+      }
+    ]
+  },
+  {
+    "title": "Points Table After Round 4",
+    "rows": [
+      {
+        "Team": "Frölunda HC N",
+        "GP": 4,
+        "W": 4,
+        "T": 0,
+        "L": 0,
+        "GFGA": "29:13 (+16)",
+        "Points": 8
+      },
+      {
+        "Team": "Härryda HC",
+        "GP": 4,
+        "W": 3,
+        "T": 0,
+        "L": 1,
+        "GFGA": "15:10 (+5)",
+        "Points": 6
+      },
+      {
+        "Team": "Lerums BK",
+        "GP": 4,
+        "W": 2,
+        "T": 1,
+        "L": 1,
+        "GFGA": "17:11 (+6)",
+        "Points": 5
+      },
+      {
+        "Team": "Rönnängs IK",
+        "GP": 4,
+        "W": 2,
+        "T": 1,
+        "L": 1,
+        "GFGA": "14:11 (+3)",
+        "Points": 5
+      },
+      {
+        "Team": "Bäcken HC",
+        "GP": 4,
+        "W": 2,
+        "T": 0,
+        "L": 2,
+        "GFGA": "13:13 (+0)",
+        "Points": 4
+      },
+      {
+        "Team": "Kållered SK",
+        "GP": 4,
+        "W": 1,
+        "T": 0,
+        "L": 3,
+        "GFGA": "7:15 (-8)",
+        "Points": 2
+      },
+      {
+        "Team": "Hovås HC",
+        "GP": 4,
+        "W": 1,
+        "T": 0,
+        "L": 3,
+        "GFGA": "9:20 (-11)",
+        "Points": 2
+      },
+      {
+        "Team": "IF Mölndal Hockey",
+        "GP": 4,
+        "W": 0,
+        "T": 0,
+        "L": 4,
+        "GFGA": "10:21 (-11)",
+        "Points": 0
+      }
+    ]
+  },
+  {
+    "title": "Points Table After Round 5",
+    "rows": [
+      {
+        "Team": "Frölunda HC N",
+        "GP": 5,
+        "W": 5,
+        "T": 0,
+        "L": 0,
+        "GFGA": "32:14 (+18)",
+        "Points": 10
+      },
+      {
+        "Team": "Lerums BK",
+        "GP": 5,
+        "W": 3,
+        "T": 1,
+        "L": 1,
+        "GFGA": "23:13 (+10)",
+        "Points": 7
+      },
+      {
+        "Team": "Rönnängs IK",
+        "GP": 5,
+        "W": 3,
+        "T": 1,
+        "L": 1,
+        "GFGA": "19:14 (+5)",
+        "Points": 7
+      },
+      {
+        "Team": "Bäcken HC",
+        "GP": 5,
+        "W": 3,
+        "T": 0,
+        "L": 2,
+        "GFGA": "17:14 (+3)",
+        "Points": 6
+      },
+      {
+        "Team": "Härryda HC",
+        "GP": 5,
+        "W": 3,
+        "T": 0,
+        "L": 2,
+        "GFGA": "16:13 (+3)",
+        "Points": 6
+      },
+      {
+        "Team": "Kållered SK",
+        "GP": 5,
+        "W": 1,
+        "T": 0,
+        "L": 4,
+        "GFGA": "8:19 (-11)",
+        "Points": 2
+      },
+      {
+        "Team": "Hovås HC",
+        "GP": 5,
+        "W": 1,
+        "T": 0,
+        "L": 4,
+        "GFGA": "11:26 (-15)",
+        "Points": 2
+      },
+      {
+        "Team": "IF Mölndal Hockey",
+        "GP": 5,
+        "W": 0,
+        "T": 0,
+        "L": 5,
+        "GFGA": "13:26 (-13)",
+        "Points": 0
+      }
+    ]
+  },
+  {
+    "title": "Points Table After Round 6",
+    "rows": [
+      {
+        "Team": "Frölunda HC N",
+        "GP": 6,
+        "W": 5,
+        "T": 0,
+        "L": 1,
+        "GFGA": "33:19 (+14)",
+        "Points": 10
+      },
+      {
+        "Team": "Rönnängs IK",
+        "GP": 6,
+        "W": 4,
+        "T": 1,
+        "L": 1,
+        "GFGA": "24:15 (+9)",
+        "Points": 9
+      },
+      {
+        "Team": "Härryda HC",
+        "GP": 6,
+        "W": 4,
+        "T": 0,
+        "L": 2,
+        "GFGA": "19:14 (+5)",
+        "Points": 8
+      },
+      {
+        "Team": "Bäcken HC",
+        "GP": 6,
+        "W": 4,
+        "T": 0,
+        "L": 2,
+        "GFGA": "21:17 (+4)",
+        "Points": 8
+      },
+      {
+        "Team": "Lerums BK",
+        "GP": 6,
+        "W": 3,
+        "T": 1,
+        "L": 2,
+        "GFGA": "24:16 (+8)",
+        "Points": 7
+      },
+      {
+        "Team": "Hovås HC",
+        "GP": 6,
+        "W": 2,
+        "T": 0,
+        "L": 4,
+        "GFGA": "14:26 (-12)",
+        "Points": 4
+      },
+      {
+        "Team": "Kållered SK",
+        "GP": 6,
+        "W": 1,
+        "T": 0,
+        "L": 5,
+        "GFGA": "8:22 (-14)",
+        "Points": 2
+      },
+      {
+        "Team": "IF Mölndal Hockey",
+        "GP": 6,
+        "W": 0,
+        "T": 0,
+        "L": 6,
+        "GFGA": "16:30 (-14)",
+        "Points": 0
+      }
+    ]
+  },
+  {
+    "title": "Points Table After Round 7",
+    "rows": [
+      {
+        "Team": "Frölunda HC N",
+        "GP": 7,
+        "W": 6,
+        "T": 0,
+        "L": 1,
+        "GFGA": "38:23 (+15)",
+        "Points": 12
+      },
+      {
+        "Team": "Härryda HC",
+        "GP": 7,
+        "W": 5,
+        "T": 0,
+        "L": 2,
+        "GFGA": "23:15 (+8)",
+        "Points": 10
+      },
+      {
+        "Team": "Lerums BK",
+        "GP": 7,
+        "W": 4,
+        "T": 1,
+        "L": 2,
+        "GFGA": "31:18 (+13)",
+        "Points": 9
+      },
+      {
+        "Team": "Rönnängs IK",
+        "GP": 7,
+        "W": 4,
+        "T": 1,
+        "L": 2,
+        "GFGA": "25:19 (+6)",
+        "Points": 9
+      },
+      {
+        "Team": "Bäcken HC",
+        "GP": 7,
+        "W": 4,
+        "T": 1,
+        "L": 2,
+        "GFGA": "21:17 (+4)",
+        "Points": 9
+      },
+      {
+        "Team": "Hovås HC",
+        "GP": 7,
+        "W": 2,
+        "T": 1,
+        "L": 4,
+        "GFGA": "14:26 (-12)",
+        "Points": 5
+      },
+      {
+        "Team": "Kållered SK",
+        "GP": 7,
+        "W": 1,
+        "T": 0,
+        "L": 6,
+        "GFGA": "12:27 (-15)",
+        "Points": 2
+      },
+      {
+        "Team": "IF Mölndal Hockey",
+        "GP": 7,
+        "W": 0,
+        "T": 0,
+        "L": 7,
+        "GFGA": "18:37 (-19)",
+        "Points": 0
+      }
+    ]
+  },
+  {
+    "title": "Points Table After Round 8",
+    "rows": [
+      {
+        "Team": "Frölunda HC N",
+        "GP": 8,
+        "W": 7,
+        "T": 0,
+        "L": 1,
+        "GFGA": "42:26 (+16)",
+        "Points": 14
+      },
+      {
+        "Team": "Härryda HC",
+        "GP": 8,
+        "W": 6,
+        "T": 0,
+        "L": 2,
+        "GFGA": "28:15 (+13)",
+        "Points": 12
+      },
+      {
+        "Team": "Lerums BK",
+        "GP": 8,
+        "W": 5,
+        "T": 1,
+        "L": 2,
+        "GFGA": "37:19 (+18)",
+        "Points": 11
+      },
+      {
+        "Team": "Rönnängs IK",
+        "GP": 8,
+        "W": 4,
+        "T": 1,
+        "L": 3,
+        "GFGA": "25:22 (+3)",
+        "Points": 9
+      },
+      {
+        "Team": "Bäcken HC",
+        "GP": 8,
+        "W": 4,
+        "T": 1,
+        "L": 3,
+        "GFGA": "24:21 (+3)",
+        "Points": 9
+      },
+      {
+        "Team": "Hovås HC",
+        "GP": 8,
+        "W": 3,
+        "T": 1,
+        "L": 4,
+        "GFGA": "17:26 (-9)",
+        "Points": 7
+      },
+      {
+        "Team": "Kållered SK",
+        "GP": 8,
+        "W": 1,
+        "T": 0,
+        "L": 7,
+        "GFGA": "13:33 (-20)",
+        "Points": 2
+      },
+      {
+        "Team": "IF Mölndal Hockey",
+        "GP": 8,
+        "W": 0,
+        "T": 0,
+        "L": 8,
+        "GFGA": "18:42 (-24)",
+        "Points": 0
+      }
+    ]
+  },
+  {
+    "title": "Points Table After Round 9",
+    "rows": [
+      {
+        "Team": "Frölunda HC N",
+        "GP": 9,
+        "W": 8,
+        "T": 0,
+        "L": 1,
+        "GFGA": "50:26 (+24)",
+        "Points": 16
+      },
+      {
+        "Team": "Härryda HC",
+        "GP": 9,
+        "W": 7,
+        "T": 0,
+        "L": 2,
+        "GFGA": "31:17 (+14)",
+        "Points": 14
+      },
+      {
+        "Team": "Lerums BK",
+        "GP": 9,
+        "W": 5,
+        "T": 2,
+        "L": 2,
+        "GFGA": "42:24 (+18)",
+        "Points": 12
+      },
+      {
+        "Team": "Bäcken HC",
+        "GP": 9,
+        "W": 4,
+        "T": 2,
+        "L": 3,
+        "GFGA": "29:26 (+3)",
+        "Points": 10
+      },
+      {
+        "Team": "Rönnängs IK",
+        "GP": 9,
+        "W": 4,
+        "T": 1,
+        "L": 4,
+        "GFGA": "28:28 (+0)",
+        "Points": 9
+      },
+      {
+        "Team": "Hovås HC",
+        "GP": 9,
+        "W": 3,
+        "T": 1,
+        "L": 5,
+        "GFGA": "19:29 (-10)",
+        "Points": 7
+      },
+      {
+        "Team": "Kållered SK",
+        "GP": 9,
+        "W": 2,
+        "T": 0,
+        "L": 7,
+        "GFGA": "19:36 (-17)",
+        "Points": 4
+      },
+      {
+        "Team": "IF Mölndal Hockey",
+        "GP": 9,
+        "W": 0,
+        "T": 0,
+        "L": 9,
+        "GFGA": "18:50 (-32)",
+        "Points": 0
+      }
+    ]
+  },
+  {
+    "title": "Points Table After Round 10",
+    "rows": [
+      {
+        "Team": "Frölunda HC N",
+        "GP": 10,
+        "W": 8,
+        "T": 0,
+        "L": 2,
+        "GFGA": "54:33 (+21)",
+        "Points": 16
+      },
+      {
+        "Team": "Härryda HC",
+        "GP": 10,
+        "W": 7,
+        "T": 1,
+        "L": 2,
+        "GFGA": "33:19 (+14)",
+        "Points": 15
+      },
+      {
+        "Team": "Lerums BK",
+        "GP": 10,
+        "W": 6,
+        "T": 2,
+        "L": 2,
+        "GFGA": "49:28 (+21)",
+        "Points": 14
+      },
+      {
+        "Team": "Rönnängs IK",
+        "GP": 10,
+        "W": 5,
+        "T": 1,
+        "L": 4,
+        "GFGA": "32:28 (+4)",
+        "Points": 11
+      },
+      {
+        "Team": "Bäcken HC",
+        "GP": 10,
+        "W": 4,
+        "T": 2,
+        "L": 4,
+        "GFGA": "29:30 (-1)",
+        "Points": 10
+      },
+      {
+        "Team": "Hovås HC",
+        "GP": 10,
+        "W": 4,
+        "T": 1,
+        "L": 5,
+        "GFGA": "32:31 (+1)",
+        "Points": 9
+      },
+      {
+        "Team": "Kållered SK",
+        "GP": 10,
+        "W": 2,
+        "T": 1,
+        "L": 7,
+        "GFGA": "21:38 (-17)",
+        "Points": 5
+      },
+      {
+        "Team": "IF Mölndal Hockey",
+        "GP": 10,
+        "W": 0,
+        "T": 0,
+        "L": 10,
+        "GFGA": "20:63 (-43)",
+        "Points": 0
+      }
+    ]
+  },
+  {
+    "title": "Points Table After Round 11",
+    "rows": [
+      {
+        "Team": "Frölunda HC N",
+        "GP": 11,
+        "W": 9,
+        "T": 0,
+        "L": 2,
+        "GFGA": "66:38 (+28)",
+        "Points": 18
+      },
+      {
+        "Team": "Lerums BK",
+        "GP": 11,
+        "W": 7,
+        "T": 2,
+        "L": 2,
+        "GFGA": "53:29 (+24)",
+        "Points": 16
+      },
+      {
+        "Team": "Härryda HC",
+        "GP": 11,
+        "W": 7,
+        "T": 1,
+        "L": 3,
+        "GFGA": "34:21 (+13)",
+        "Points": 15
+      },
+      {
+        "Team": "Bäcken HC",
+        "GP": 11,
+        "W": 5,
+        "T": 2,
+        "L": 4,
+        "GFGA": "31:31 (+0)",
+        "Points": 12
+      },
+      {
+        "Team": "Rönnängs IK",
+        "GP": 11,
+        "W": 5,
+        "T": 1,
+        "L": 5,
+        "GFGA": "33:32 (+1)",
+        "Points": 11
+      },
+      {
+        "Team": "Hovås HC",
+        "GP": 11,
+        "W": 4,
+        "T": 1,
+        "L": 6,
+        "GFGA": "37:43 (-6)",
+        "Points": 9
+      },
+      {
+        "Team": "Kållered SK",
+        "GP": 11,
+        "W": 3,
+        "T": 1,
+        "L": 7,
+        "GFGA": "24:40 (-16)",
+        "Points": 7
+      },
+      {
+        "Team": "IF Mölndal Hockey",
+        "GP": 11,
+        "W": 0,
+        "T": 0,
+        "L": 11,
+        "GFGA": "22:66 (-44)",
+        "Points": 0
+      }
+    ]
+  },
+  {
+    "title": "Points Table After Round 12",
+    "rows": [
+      {
+        "Team": "Frölunda HC N",
+        "GP": 12,
+        "W": 10,
+        "T": 0,
+        "L": 2,
+        "GFGA": "70:40 (+30)",
+        "Points": 20
+      },
+      {
+        "Team": "Lerums BK",
+        "GP": 12,
+        "W": 7,
+        "T": 2,
+        "L": 3,
+        "GFGA": "56:33 (+23)",
+        "Points": 16
+      },
+      {
+        "Team": "Härryda HC",
+        "GP": 12,
+        "W": 7,
+        "T": 1,
+        "L": 4,
+        "GFGA": "36:25 (+11)",
+        "Points": 15
+      },
+      {
+        "Team": "Bäcken HC",
+        "GP": 12,
+        "W": 5,
+        "T": 3,
+        "L": 4,
+        "GFGA": "31:31 (+0)",
+        "Points": 13
+      },
+      {
+        "Team": "Rönnängs IK",
+        "GP": 12,
+        "W": 5,
+        "T": 1,
+        "L": 6,
+        "GFGA": "36:37 (-1)",
+        "Points": 11
+      },
+      {
+        "Team": "Hovås HC",
+        "GP": 12,
+        "W": 5,
+        "T": 1,
+        "L": 6,
+        "GFGA": "41:46 (-5)",
+        "Points": 11
+      },
+      {
+        "Team": "Kållered SK",
+        "GP": 12,
+        "W": 3,
+        "T": 2,
+        "L": 7,
+        "GFGA": "24:40 (-16)",
+        "Points": 8
+      },
+      {
+        "Team": "IF Mölndal Hockey",
+        "GP": 12,
+        "W": 1,
+        "T": 0,
+        "L": 11,
+        "GFGA": "27:69 (-42)",
+        "Points": 2
+      }
+    ]
+  },
+  {
+    "title": "Points Table After Round 13",
+    "rows": [
+      {
+        "Team": "Frölunda HC N",
+        "GP": 13,
+        "W": 11,
+        "T": 0,
+        "L": 2,
+        "GFGA": "72:41 (+31)",
+        "Points": 22
+      },
+      {
+        "Team": "Lerums BK",
+        "GP": 13,
+        "W": 8,
+        "T": 2,
+        "L": 3,
+        "GFGA": "59:33 (+26)",
+        "Points": 18
+      },
+      {
+        "Team": "Bäcken HC",
+        "GP": 13,
+        "W": 6,
+        "T": 3,
+        "L": 4,
+        "GFGA": "41:31 (+10)",
+        "Points": 15
+      },
+      {
+        "Team": "Härryda HC",
+        "GP": 13,
+        "W": 7,
+        "T": 1,
+        "L": 5,
+        "GFGA": "36:28 (+8)",
+        "Points": 15
+      },
+      {
+        "Team": "Hovås HC",
+        "GP": 13,
+        "W": 5,
+        "T": 2,
+        "L": 6,
+        "GFGA": "42:47 (-5)",
+        "Points": 12
+      },
+      {
+        "Team": "Rönnängs IK",
+        "GP": 13,
+        "W": 5,
+        "T": 1,
+        "L": 7,
+        "GFGA": "37:39 (-2)",
+        "Points": 11
+      },
+      {
+        "Team": "Kållered SK",
+        "GP": 13,
+        "W": 3,
+        "T": 3,
+        "L": 7,
+        "GFGA": "25:41 (-16)",
+        "Points": 9
+      },
+      {
+        "Team": "IF Mölndal Hockey",
+        "GP": 13,
+        "W": 1,
+        "T": 0,
+        "L": 12,
+        "GFGA": "27:79 (-52)",
+        "Points": 2
+      }
+    ]
+  },
+  {
+    "title": "Points Table After Round 14",
+    "rows": [
+      {
+        "Team": "Frölunda HC N",
+        "GP": 14,
+        "W": 12,
+        "T": 0,
+        "L": 2,
+        "GFGA": "76:43 (+33)",
+        "Points": 24
+      },
+      {
+        "Team": "Lerums BK",
+        "GP": 13,
+        "W": 8,
+        "T": 2,
+        "L": 3,
+        "GFGA": "59:33 (+26)",
+        "Points": 18
+      },
+      {
+        "Team": "Härryda HC",
+        "GP": 14,
+        "W": 8,
+        "T": 1,
+        "L": 5,
+        "GFGA": "46:28 (+18)",
+        "Points": 17
+      },
+      {
+        "Team": "Bäcken HC",
+        "GP": 13,
+        "W": 6,
+        "T": 3,
+        "L": 4,
+        "GFGA": "41:31 (+10)",
+        "Points": 15
+      },
+      {
+        "Team": "Hovås HC",
+        "GP": 13,
+        "W": 5,
+        "T": 2,
+        "L": 6,
+        "GFGA": "42:47 (-5)",
+        "Points": 12
+      },
+      {
+        "Team": "Rönnängs IK",
+        "GP": 14,
+        "W": 5,
+        "T": 1,
+        "L": 8,
+        "GFGA": "37:49 (-12)",
+        "Points": 11
+      },
+      {
+        "Team": "Kållered SK",
+        "GP": 14,
+        "W": 3,
+        "T": 3,
+        "L": 8,
+        "GFGA": "27:45 (-18)",
+        "Points": 9
+      },
+      {
+        "Team": "IF Mölndal Hockey",
+        "GP": 13,
+        "W": 1,
+        "T": 0,
+        "L": 12,
+        "GFGA": "27:79 (-52)",
+        "Points": 2
+      }
+    ]
+  }
+]

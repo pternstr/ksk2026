@@ -40,203 +40,92 @@ def fetch_results():
 
 if __name__ == "__main__":
     data = fetch_results()
+    import re
+    import json
     if not data:
         print("No table found or no data.")
     else:
-        # Print as table with improved readability
-        print(f"{'Round':<6} {'Date':<20} {'Game':<40} {'Result':<8} {'Spectators':<10} {'Venue':<20}")
         def clean(cell):
             return ' '.join(cell.split()).strip()
-        for row in data:
-            print(f"{clean(row['Round']):<6} {clean(row['Date']):<20} {clean(row['Game']):<40} {clean(row['Result']):<8} {clean(row['Spectators']):<10} {clean(row['Venue']):<20}")
 
-        # Calculate points table for round 1 only (with stats)
-        import re
-        points_r1 = {}
-        stats_r1 = {}
-        teams_r1 = set()
-        in_round_1 = False
-        for row in data:
-            round_val = clean(row['Round'])
-            if round_val == '1':
-                in_round_1 = True
-            elif round_val != '' and in_round_1:
-                break
-            if in_round_1:
-                game = clean(row['Game'])
-                result = clean(row['Result'])
-                match = re.match(r'(.*?) - (.*)', game)
-                if not match:
-                    continue
-                team1 = match.group(1).strip()
-                team2 = match.group(2).strip()
-                teams_r1.update([team1, team2])
-                score_match = re.match(r'(\d+)\s*-\s*(\d+)', result)
-                if not score_match:
-                    continue
-                score1 = int(score_match.group(1))
-                score2 = int(score_match.group(2))
-                # Initialize stats
-                for t in [team1, team2]:
-                    if t not in stats_r1:
-                        stats_r1[t] = {'GP': 0, 'W': 0, 'T': 0, 'L': 0, 'GF': 0, 'GA': 0}
-                stats_r1[team1]['GP'] += 1
-                stats_r1[team2]['GP'] += 1
-                stats_r1[team1]['GF'] += score1
-                stats_r1[team1]['GA'] += score2
-                stats_r1[team2]['GF'] += score2
-                stats_r1[team2]['GA'] += score1
-                if score1 > score2:
-                    points_r1[team1] = points_r1.get(team1, 0) + 2
-                    points_r1[team2] = points_r1.get(team2, 0) + 0
-                    stats_r1[team1]['W'] += 1
-                    stats_r1[team2]['L'] += 1
-                elif score1 < score2:
-                    points_r1[team1] = points_r1.get(team1, 0) + 0
-                    points_r1[team2] = points_r1.get(team2, 0) + 2
-                    stats_r1[team1]['L'] += 1
-                    stats_r1[team2]['W'] += 1
-                else:
-                    points_r1[team1] = points_r1.get(team1, 0) + 1
-                    points_r1[team2] = points_r1.get(team2, 0) + 1
-                    stats_r1[team1]['T'] += 1
-                    stats_r1[team2]['T'] += 1
+        # Output schedule/results
+        with open("results.json", "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
 
-        print("\nPoints Table After Round 1:")
-        # Sort by points, then goal diff
-        sorted_r1 = sorted(points_r1.items(), key=lambda x: (x[1], stats_r1[x[0]]['GF'] - stats_r1[x[0]]['GA']), reverse=True)
-        print(f"{'Team':<25} {'GP':<4} {'W':<4} {'T':<4} {'L':<4} {'GF:GA (diff)':<14} {'Points':<6}")
-        for team, pts in sorted_r1:
-            s = stats_r1[team]
-            diff = s['GF'] - s['GA']
-            gfga = f"{s['GF']}:{s['GA']} ({diff:+d})"
-            print(f"{team:<25} {s['GP']:<4} {s['W']:<4} {s['T']:<4} {s['L']:<4} {gfga:<14} {pts:<6}")
-
-        # Calculate points table for rounds 1 and 2 (with stats)
-        points_r2 = {}
-        stats_r2 = {}
-        teams_r2 = set()
-        in_rounds_1_2 = False
-        for row in data:
-            round_val = clean(row['Round'])
-            if round_val == '1':
-                in_rounds_1_2 = True
-            elif round_val == '2' and in_rounds_1_2:
-                in_rounds_1_2 = True
-            elif round_val not in ('', '1', '2') and in_rounds_1_2:
-                break
-            if in_rounds_1_2:
-                game = clean(row['Game'])
-                result = clean(row['Result'])
-                match = re.match(r'(.*?) - (.*)', game)
-                if not match:
-                    continue
-                team1 = match.group(1).strip()
-                team2 = match.group(2).strip()
-                teams_r2.update([team1, team2])
-                score_match = re.match(r'(\d+)\s*-\s*(\d+)', result)
-                if not score_match:
-                    continue
-                score1 = int(score_match.group(1))
-                score2 = int(score_match.group(2))
-                # Initialize stats
-                for t in [team1, team2]:
-                    if t not in stats_r2:
-                        stats_r2[t] = {'GP': 0, 'W': 0, 'T': 0, 'L': 0, 'GF': 0, 'GA': 0}
-                stats_r2[team1]['GP'] += 1
-                stats_r2[team2]['GP'] += 1
-                stats_r2[team1]['GF'] += score1
-                stats_r2[team1]['GA'] += score2
-                stats_r2[team2]['GF'] += score2
-                stats_r2[team2]['GA'] += score1
-                if score1 > score2:
-                    points_r2[team1] = points_r2.get(team1, 0) + 2
-                    points_r2[team2] = points_r2.get(team2, 0) + 0
-                    stats_r2[team1]['W'] += 1
-                    stats_r2[team2]['L'] += 1
-                elif score1 < score2:
-                    points_r2[team1] = points_r2.get(team1, 0) + 0
-                    points_r2[team2] = points_r2.get(team2, 0) + 2
-                    stats_r2[team1]['L'] += 1
-                    stats_r2[team2]['W'] += 1
-                else:
-                    points_r2[team1] = points_r2.get(team1, 0) + 1
-                    points_r2[team2] = points_r2.get(team2, 0) + 1
-                    stats_r2[team1]['T'] += 1
-                    stats_r2[team2]['T'] += 1
-
-        print("\nPoints Table After Round 2:")
-        sorted_r2 = sorted(points_r2.items(), key=lambda x: (x[1], stats_r2[x[0]]['GF'] - stats_r2[x[0]]['GA']), reverse=True)
-        print(f"{'Team':<25} {'GP':<4} {'W':<4} {'T':<4} {'L':<4} {'GF:GA (diff)':<14} {'Points':<6}")
-        for team, pts in sorted_r2:
-            s = stats_r2[team]
-            diff = s['GF'] - s['GA']
-            gfga = f"{s['GF']}:{s['GA']} ({diff:+d})"
-            print(f"{team:<25} {s['GP']:<4} {s['W']:<4} {s['T']:<4} {s['L']:<4} {gfga:<14} {pts:<6}")
-
-        # Calculate points table for rounds 1-3 (with stats)
-        points_r3 = {}
-        stats_r3 = {}
-        teams_r3 = set()
-        in_rounds_1_3 = False
-        for row in data:
-            round_val = clean(row['Round'])
-            if round_val == '1':
-                in_rounds_1_3 = True
-            elif round_val == '3' and in_rounds_1_3:
-                in_rounds_1_3 = True
-            elif round_val not in ('', '1', '2', '3') and in_rounds_1_3:
-                break
-            if in_rounds_1_3:
-                game = clean(row['Game'])
-                result = clean(row['Result'])
-                match = re.match(r'(.*?) - (.*)', game)
-                if not match:
-                    continue
-                team1 = match.group(1).strip()
-                team2 = match.group(2).strip()
-                teams_r3.update([team1, team2])
-                score_match = re.match(r'(\d+)\s*-\s*(\d+)', result)
-                if not score_match:
-                    continue
-                score1 = int(score_match.group(1))
-                score2 = int(score_match.group(2))
-                # Initialize stats
-                for t in [team1, team2]:
-                    if t not in stats_r3:
-                        stats_r3[t] = {'GP': 0, 'W': 0, 'T': 0, 'L': 0, 'GF': 0, 'GA': 0}
-                stats_r3[team1]['GP'] += 1
-                stats_r3[team2]['GP'] += 1
-                stats_r3[team1]['GF'] += score1
-                stats_r3[team1]['GA'] += score2
-                stats_r3[team2]['GF'] += score2
-                stats_r3[team2]['GA'] += score1
-                if score1 > score2:
-                    points_r3[team1] = points_r3.get(team1, 0) + 2
-                    points_r3[team2] = points_r3.get(team2, 0) + 0
-                    stats_r3[team1]['W'] += 1
-                    stats_r3[team2]['L'] += 1
-                elif score1 < score2:
-                    points_r3[team1] = points_r3.get(team1, 0) + 0
-                    points_r3[team2] = points_r3.get(team2, 0) + 2
-                    stats_r3[team1]['L'] += 1
-                    stats_r3[team2]['W'] += 1
-                else:
-                    points_r3[team1] = points_r3.get(team1, 0) + 1
-                    points_r3[team2] = points_r3.get(team2, 0) + 1
-                    stats_r3[team1]['T'] += 1
-                    stats_r3[team2]['T'] += 1
-
-        print("\nPoints Table After Round 3:")
-        sorted_r3 = sorted(points_r3.items(), key=lambda x: (x[1], stats_r3[x[0]]['GF'] - stats_r3[x[0]]['GA']), reverse=True)
-        print(f"{'Team':<25} {'GP':<4} {'W':<4} {'T':<4} {'L':<4} {'GF:GA (diff)':<14} {'Points':<6}")
-        for team, pts in sorted_r3:
-            s = stats_r3[team]
-            diff = s['GF'] - s['GA']
-            gfga = f"{s['GF']}:{s['GA']} ({diff:+d})"
-            print(f"{team:<25} {s['GP']:<4} {s['W']:<4} {s['T']:<4} {s['L']:<4} {gfga:<14} {pts:<6}")
-
-        # Calculate points table for rounds 1-4 (with stats)
+        # Output points tables for rounds 1–14
+        points_tables = []
+        for round_num in range(1, 15):
+            points = {}
+            stats = {}
+            teams = set()
+            in_rounds = False
+            for row in data:
+                round_val = clean(row['Round'])
+                if round_val == '1':
+                    in_rounds = True
+                elif round_val == str(round_num) and in_rounds:
+                    in_rounds = True
+                elif round_val not in tuple([''] + [str(r) for r in range(1, round_num+1)]) and in_rounds:
+                    break
+                if in_rounds:
+                    game = clean(row['Game'])
+                    result = clean(row['Result'])
+                    match = re.match(r'(.*?) - (.*)', game)
+                    if not match:
+                        continue
+                    team1 = match.group(1).strip()
+                    team2 = match.group(2).strip()
+                    teams.update([team1, team2])
+                    score_match = re.match(r'(\d+)\s*-\s*(\d+)', result)
+                    if not score_match:
+                        continue
+                    score1 = int(score_match.group(1))
+                    score2 = int(score_match.group(2))
+                    for t in [team1, team2]:
+                        if t not in stats:
+                            stats[t] = {'GP': 0, 'W': 0, 'T': 0, 'L': 0, 'GF': 0, 'GA': 0}
+                    stats[team1]['GP'] += 1
+                    stats[team2]['GP'] += 1
+                    stats[team1]['GF'] += score1
+                    stats[team1]['GA'] += score2
+                    stats[team2]['GF'] += score2
+                    stats[team2]['GA'] += score1
+                    if score1 > score2:
+                        points[team1] = points.get(team1, 0) + 2
+                        points[team2] = points.get(team2, 0) + 0
+                        stats[team1]['W'] += 1
+                        stats[team2]['L'] += 1
+                    elif score1 < score2:
+                        points[team1] = points.get(team1, 0) + 0
+                        points[team2] = points.get(team2, 0) + 2
+                        stats[team1]['L'] += 1
+                        stats[team2]['W'] += 1
+                    else:
+                        points[team1] = points.get(team1, 0) + 1
+                        points[team2] = points.get(team2, 0) + 1
+                        stats[team1]['T'] += 1
+                        stats[team2]['T'] += 1
+            sorted_points = sorted(points.items(), key=lambda x: (x[1], stats[x[0]]['GF'] - stats[x[0]]['GA']), reverse=True)
+            table = {
+                "title": f"Points Table After Round {round_num}",
+                "rows": []
+            }
+            for team, pts in sorted_points:
+                s = stats[team]
+                diff = s['GF'] - s['GA']
+                gfga = f"{s['GF']}:{s['GA']} ({diff:+d})"
+                table["rows"].append({
+                    "Team": team,
+                    "GP": s['GP'],
+                    "W": s['W'],
+                    "T": s['T'],
+                    "L": s['L'],
+                    "GFGA": gfga,
+                    "Points": pts
+                })
+            points_tables.append(table)
+        with open("points_tables.json", "w", encoding="utf-8") as f:
+            json.dump(points_tables, f, ensure_ascii=False, indent=2)
         points_r4 = {}
         stats_r4 = {}
         teams_r4 = set()
