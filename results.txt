@@ -1,0 +1,57 @@
+Round  Date                 Game                                     Result   Spectators Venue               
+1      2025-12-06 14:00     Hovås HC - Rönnängs IK                   2 - 5    75         Askims Ishall       
+       2025-12-06 16:30     Bäcken HC - Frölunda HC N                4 - 6               Marconihallen       
+       2025-12-06 16:30     Kållered SK - Lerums BK                  0 - 7               Kållereds Ishall    
+       2025-12-06 19:30     IF Mölndal Hockey - Härryda HC           3 - 4               Åby Ishall          
+2      2025-12-12 20:00     Lerums BK - Bäcken HC                    3 - 2               Vättlehallen        
+       2025-12-13 17:00     Frölunda HC N - IF Mölndal Hockey        10 - 4              Rambergsrinken      
+       2025-12-13 18:30     Rönnängs IK - Kållered SK                3 - 1               Tjörns Ishall       
+       2025-12-13 20:00     Härryda HC - Hovås HC                    6 - 2    100        Landvetters Ishall  
+3      2025-12-20 14:00     Hovås HC - IF Mölndal Hockey             3 - 1    73         Askims Ishall       
+       2025-12-20 16:30     Kållered SK - Härryda HC                 2 - 3               Kållereds Ishall    
+       2025-12-20 16:30     Frölunda HC N - Lerums BK                5 - 3               Valhallarinken      
+       2025-12-20 18:30     Bäcken HC - Rönnängs IK                  4 - 2    40         Marconihallen       
+4      2026-01-10 11:15     IF Mölndal Hockey - Kållered SK          2 - 4               Åby Ishall          
+       2026-01-10 18:30     Frölunda HC N - Hovås HC                 8 - 2               Rambergsrinken      
+       2026-01-10 19:30     Härryda HC - Bäcken HC                   2 - 3               Landvetters Ishall  
+       2026-03-11 19:00     Rönnängs IK - Lerums BK                  4 - 4               Tjörns Ishall       
+5      2026-01-17 16:30     Hovås HC - Lerums BK                     2 - 6    45         Askims Ishall       
+       2026-01-17 18:30     Bäcken HC - Kållered SK                  4 - 1               Marconihallen       
+       2026-01-17 19:30     IF Mölndal Hockey - Rönnängs IK          3 - 5               Åby Ishall          
+       2026-01-17 20:00     Härryda HC - Frölunda HC N               1 - 3               Landvetters Ishall  
+6      2026-01-24 11:30     Bäcken HC - IF Mölndal Hockey            4 - 3               Marconihallen       
+       2026-01-24 16:00     Rönnängs IK - Frölunda HC N              5 - 1    35         Tjörns Ishall       
+       2026-01-24 17:30     Lerums BK - Härryda HC                   1 - 3               Vättlehallen        
+       2026-01-24 19:30     Kållered SK - Hovås HC                   0 - 3               Kållereds Ishall    
+7      2026-01-31 16:30     IF Mölndal Hockey - Lerums BK            2 - 7               Åby Ishall          
+       2026-01-31 17:00     Frölunda HC N - Kållered SK              5 - 4               Rambergsrinken      
+       2026-01-31 18:30     Härryda HC - Rönnängs IK                 4 - 1               Landvetters Ishall  
+       2026-01-31 18:30     Hovås HC - Bäcken HC                     0 - 0    43         Askims Ishall       
+8      2026-02-04 19:30     Frölunda HC N - Bäcken HC                4 - 3               Valhallarinken      
+       2026-02-06 20:00     Lerums BK - Kållered SK                  6 - 1               Vättlehallen        
+       2026-02-07 18:00     Härryda HC - IF Mölndal Hockey           5 - 0               Landvetters Ishall  
+       2026-02-20 19:30     Rönnängs IK - Hovås HC                   0 - 3               Tjörns Ishall       
+9      2026-02-01 13:30     IF Mölndal Hockey - Frölunda HC N        0 - 8               Åby Ishall          
+       2026-02-17 19:30     Hovås HC - Härryda HC                    2 - 3    58         Askims Ishall       
+       2026-03-10 19:00     Bäcken HC - Lerums BK                    5 - 5    53         Marconihallen       
+       2026-03-13 19:30     Kållered SK - Rönnängs IK                6 - 3               Kållereds Ishall    
+10     2026-02-21 11:30     IF Mölndal Hockey - Hovås HC             2 - 13              Kållereds Ishall    
+       2026-02-21 18:00     Härryda HC - Kållered SK                 2 - 2               Landvetters Ishall  
+       2026-02-21 18:30     Rönnängs IK - Bäcken HC                  4 - 0               Tjörns Ishall       
+       2026-02-21 19:00     Lerums BK - Frölunda HC N                7 - 4               Vättlehallen        
+11     2026-02-28 11:30     Bäcken HC - Härryda HC                   2 - 1    25         Marconihallen       
+       2026-02-28 12:00     Lerums BK - Rönnängs IK                  4 - 1               Vättlehallen        
+       2026-02-28 14:00     Hovås HC - Frölunda HC N                 5 - 12   40         Askims Ishall       
+       2026-03-01 13:30     Kållered SK - IF Mölndal Hockey          3 - 2               Kållereds Ishall    
+12     2026-03-07 16:00     Rönnängs IK - IF Mölndal Hockey          3 - 5               Tjörns Ishall       
+       2026-03-07 16:30     Kållered SK - Bäcken HC                  0 - 0               Kållereds Ishall    
+       2026-03-07 17:00     Frölunda HC N - Härryda HC               4 - 2    67         Rambergsrinken      
+       2026-03-07 19:00     Lerums BK - Hovås HC                     3 - 4               Vättlehallen        
+13     2026-03-14 11:15     IF Mölndal Hockey - Bäcken HC            0 - 10              Åby Ishall          
+       2026-03-14 17:00     Härryda HC - Lerums BK                   0 - 3               Landvetters Ishall  
+       2026-03-14 17:20     Frölunda HC N - Rönnängs IK              2 - 1               Valhallarinken      
+       2026-03-14 12:00     Hovås HC - Kållered SK                   1 - 1    74         Askims Ishall       
+14     2026-02-27 18:30     Rönnängs IK - Härryda HC                 0 - 10              Tjörns Ishall       
+       2026-03-17 19:00     Kållered SK - Frölunda HC N              2 - 4               Kållereds Ishall    
+       2026-03-18 19:00     Bäcken HC - Hovås HC                                         Marconihallen       
+       2026-03-21 19:30     Lerums BK - IF Mölndal Hockey                                Vättlehallen        
