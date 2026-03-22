@@ -1,20 +1,29 @@
 
 
 
+
 import re
 import requests
 from bs4 import BeautifulSoup
+import json
+from game_info_helper import get_game_info
 
 
-# Read html.html and extract URLs only once
+# Read html.html and extract all URLs containing 10829
 with open("html.html", encoding="utf-8") as f:
     html = f.read()
 
 soup = BeautifulSoup(html, "html.parser")
 urls = set()
+for a in soup.find_all("a", href=True):
+    href = a['href']
+    m = re.search(r"openonlinewindow\('(\/Game\/Events\/10829\d{2})", href)
+    if m:
+        urls.add("https://stats.swehockey.se" + m.group(1))
 
-url = "https://stats.swehockey.se/Game/Events/1082926"
-print(f"Scanning {url}")
+urls = sorted(urls)
+
+print(f"Found {len(urls)} game URLs.")
 
 def extract_eq_goals(game_html, source_url):
     player_data = {}
@@ -25,7 +34,7 @@ def extract_eq_goals(game_html, source_url):
             tds = tr.find_all("td")
             if len(tds) >= 4:
                 goal_text = tds[1].get_text(strip=True)
-                if re.match(r"\d+-\d+ \(EQ\)", goal_text):
+                if re.match(r"\d+-\d+ \((EQ|PP1)\)", goal_text):
                     # Join all text fragments in the team cell, then clean up whitespace
                     team_fragments = tds[2].stripped_strings
                     team = ' '.join(team_fragments)
@@ -72,35 +81,50 @@ def extract_eq_goals(game_html, source_url):
 
 
 
-try:
-    resp = requests.get(url)
-    resp.raise_for_status()
-    resp.encoding = 'utf-8'  # Force UTF-8 encoding
-    player_data = extract_eq_goals(resp.text, url)
 
-    for player, events in player_data.items():
-        teams = ', '.join(g['team'] for g in events)
-        roles = ', '.join(g['role'] for g in events)
-        sources = ', '.join(g['source'] for g in events)
-        print(f"Player: {player} | Teams: {teams} | Roles: {roles} | Sources: {sources}")
+all_tables = []
+for url in urls:
+    print(f"Scanning {url}")
+    try:
+        resp = requests.get(url)
+        resp.raise_for_status()
+        resp.encoding = 'utf-8'  # Force UTF-8 encoding
+        player_data = extract_eq_goals(resp.text, url)
 
-    # Print formatted table of players with most points
-    print("\n{:<30} {:<16} {:<6} {:<6} {:<6} {:<40}".format("Player", "Team(s)", "Goal", "Assist", "Points", "Goals/Assists"))
-    print("-"*110)
-    sorted_players = sorted(player_data.items(), key=lambda x: len(x[1]), reverse=True)
-    for player, events in sorted_players:
-        teams_raw = ', '.join(sorted(set(g['team'] for g in events)))
-        teams = re.sub(r'[\n\r]+', ' ', teams_raw)
-        teams = re.sub(r'\s+', ' ', teams).strip()
-        # Count goals and assists
-        goal_count = sum(1 for g in events if g['role'] == 'G')
-        assist_count = sum(1 for g in events if g['role'] == 'A')
-        # Replace (EQ) with (G) or (A) in the goal text
-        ga_list = []
-        for g in events:
-            label = g['goal'].replace(' (EQ)', f" ({g['role']})")
-            ga_list.append(label)
-        ga_str = ', '.join(ga_list)
-        print("{:<30} {:<16} {:<6} {:<6} {:<6} {:<40}".format(player, teams, goal_count, assist_count, len(events), ga_str))
-except Exception as e:
-    print(f"Error fetching {url}: {e}")
+        # Print formatted table of players with most points
+        table_lines = []
+        url_line = f"Source: {url}"
+        print(url_line)
+        table_lines.append(url_line)
+        header = "\n{:<30} {:<16} {:<6} {:<6} {:<6} {:<40}".format("Player", "Team(s)", "Goal", "Assist", "Points", "Goals/Assists")
+        sep = "-"*110
+        table_lines.append(header)
+        table_lines.append(sep)
+        sorted_players = sorted(player_data.items(), key=lambda x: len(x[1]), reverse=True)
+        for player, events in sorted_players:
+            teams_raw = ', '.join(sorted(set(g['team'] for g in events)))
+            teams = re.sub(r'[\n\r]+', ' ', teams_raw)
+            teams = re.sub(r'\s+', ' ', teams).strip()
+            # Count goals and assists
+            goal_count = sum(1 for g in events if g['role'] == 'G')
+            assist_count = sum(1 for g in events if g['role'] == 'A')
+            # Replace (EQ) or (PP1) with (G) or (A) in the goal text
+            ga_list = []
+            for g in events:
+                label = re.sub(r' \((EQ|PP1)\)', f" ({g['role']})", g['goal'])
+                ga_list.append(label)
+            ga_str = ', '.join(ga_list)
+            line = "{:<30} {:<16} {:<6} {:<6} {:<6} {:<40}".format(player, teams, goal_count, assist_count, len(events), ga_str)
+            table_lines.append(line)
+            print(line)
+        all_tables.extend(table_lines)
+        all_tables.append("")  # Blank line between tables
+    except Exception as e:
+        print(f"Error fetching {url}: {e}")
+        all_tables.append(f"Error fetching {url}: {e}")
+        all_tables.append("")
+
+# Write all tables to output.txt
+with open("output.txt", "w", encoding="utf-8") as f:
+    for line in all_tables:
+        f.write(line + "\n")
