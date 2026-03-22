@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hockey Stats Output</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f8f8f8; color: #222; }
+        .source { font-weight: bold; margin-top: 2em; }
+        table { border-collapse: collapse; margin-bottom: 2em; width: 100%; background: #fff; }
+        th, td { border: 1px solid #ccc; padding: 6px 10px; text-align: left; }
+        th { background: #e0e0e0; }
+        .summary { background: #f0f0f0; font-weight: bold; }
+        .team-kal { background: #e6ffe6; }
+        .error { color: #b00; font-weight: bold; }
+        .section-title { font-size: 1.2em; margin-top: 2em; }
+        hr { margin: 2em 0; }
+    </style>
+</head>
+<body>
+<h1>Hockey Stats Output</h1>
+<div id="content">
+<!-- Generated from output.txt -->
+
+<script>
+// This script will convert the plain text output into HTML tables for each section.
+window.onload = function() {
+    const content = document.getElementById('content');
+    fetch('output.txt')
+        .then(r => r.text())
+        .then(text => {
+            const lines = text.split(/\r?\n/);
+            let html = '';
+            let inTable = false;
+            let tableRows = [];
+            let sectionTitle = '';
+            let isSummary = false;
+            let isKAL = false;
+            let preBlock = [];
+            let inPre = false;
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i];
+                if (line.startsWith('Source:')) {
+                    if (inPre) {
+                        html += '<pre>' + preBlock.join('\n') + '</pre>';
+                        preBlock = [];
+                        inPre = false;
+                    }
+                    if (inTable) {
+                        html += '<table>' + tableRows.join('') + '</table>';
+                        tableRows = [];
+                        inTable = false;
+                    }
+                    // Make the source URL clickable
+                    const urlMatch = line.match(/Source: (https?:\/\/\S+)/);
+                    if (urlMatch) {
+                        html += `<div class=\"source section-title\"><a href=\"${urlMatch[1]}\" target=\"_blank\">${line}</a></div>`;
+                    } else {
+                        html += `<div class=\"source section-title\">${line}</div>`;
+                    }
+                    isSummary = false;
+                    isKAL = false;
+                } else if (line.startsWith('SUMMARY:')) {
+                    if (inPre) {
+                        html += '<pre>' + preBlock.join('\n') + '</pre>';
+                        preBlock = [];
+                        inPre = false;
+                    }
+                    if (inTable) {
+                        html += '<table>' + tableRows.join('') + '</table>';
+                        tableRows = [];
+                        inTable = false;
+                    }
+                    isSummary = true;
+                    isKAL = line.includes('(KÅL only)');
+                    html += `<div class="section-title${isKAL ? ' team-kal' : ''}">${line}</div>`;
+                } else if (/^Player\s+Team/.test(line)) {
+                    if (!isSummary) {
+                        inPre = true;
+                        preBlock.push(line);
+                    } else {
+                        inTable = true;
+                        let headers = line.trim().split(/\s{2,}/);
+                        // Fallback for summary tables (already handled)
+                        if (headers.length > 1 && headers[headers.length - 1] === 'Goals/Assists') {
+                            headers.splice(headers.length - 1, 1);
+                            headers.push('');
+                            headers.push('Goals/Assists');
+                        }
+                        let ths = headers.map(h => `<th>${h}</th>`).join('');
+                        tableRows.push('<tr>' + ths + '</tr>');
+                    }
+                } else if (/^-{5,}/.test(line)) {
+                    if (inPre) preBlock.push(line);
+                    // skip separator for tables
+                } else if (inPre && line.trim()) {
+                    preBlock.push(line);
+                } else if (inPre && !line.trim()) {
+                    html += '<pre>' + preBlock.join('\n') + '</pre>';
+                    preBlock = [];
+                    inPre = false;
+                } else if (inTable && line.trim()) {
+                    let tds = line.trim().split(/\s{2,}/).map((d, idx) => `<td${isSummary && idx === 1 && isKAL ? ' class=\"team-kal\"' : ''}>${d}</td>`).join('');
+                    tableRows.push('<tr>' + tds + '</tr>');
+                } else if (inTable && !line.trim()) {
+                    html += '<table>' + tableRows.join('') + '</table>';
+                    tableRows = [];
+                    inTable = false;
+                }
+            }
+            if (inPre) {
+                html += '<pre>' + preBlock.join('\n') + '</pre>';
+            }
+            if (inTable) {
+                html += '<table>' + tableRows.join('') + '</table>';
+            }
+            content.innerHTML = html;
+        });
+};
+</script>

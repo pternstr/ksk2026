@@ -1,0 +1,858 @@
+Source: https://stats.swehockey.se/Game/Events/1082926
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+47. Reuterdahl, Vincent        FR               3      1      4      4-5 (A), 3-3 (G), 2-2 (G), 1-1 (G)      
+55. Liljebjörn, Milo           FR               1      2      3      4-6 (G), 3-4 (A), 2-2 (A)               
+68. Andersson, Gabriel         FR               1      1      2      4-5 (G), 1-1 (A)                        
+13. Dahlstrand, Valdemar       BÄC              1      1      2      4-4 (G), 3-2 (A)                        
+17. Viking, Gustav             BÄC              0      2      2      4-4 (A), 1-0 (A)                        
+48. Hagström, Oskar            FR               0      2      2      3-3 (A), 2-2 (A)                        
+59. Vujovic, Bogdan            FR               0      1      1      4-6 (A)                                 
+37. Moise, Victor              FR               1      0      1      3-4 (G)                                 
+11. Stenström, Oskar           BÄC              1      0      1      3-2 (G)                                 
+8. Aagaard, Kalle              BÄC              1      0      1      2-1 (G)                                 
+53. Rosén, Tim                 BÄC              0      1      1      2-1 (A)                                 
+42. Gunes, Leonel              FR               0      1      1      1-1 (A)                                 
+10. Nyström, Abbe              BÄC              1      0      1      1-0 (G)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082927
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+20. Fihn, Anton                LER              1      2      3      0-7 (A), 0-4 (G), 0-2 (A)               
+6. Olander, Casper             LER              1      2      3      0-6 (A), 0-5 (A), 0-3 (G)               
+24. Andersson, Douglas         LER              2      1      3      0-5 (G), 0-2 (G), 0-1 (A)               
+27. Perez, Milo                LER              2      0      2      0-7 (G), 0-6 (G)                        
+11. Gäärd, Viggo               LER              0      2      2      0-3 (A), 0-2 (A)                        
+25. Andersson, Alfred          LER              0      1      1      0-4 (A)                                 
+28. Hellström, Emil            LER              1      0      1      0-1 (G)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082928
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+17. Axelsson, Gustav           RÖN              2      2      4      2-5 (A), 2-4 (A), 0-3 (G), 0-1 (G)      
+21. Johannson, Tom             RÖN              1      1      2      2-5 (G), 0-3 (A)                        
+19. Olvesjö, Noah              RÖN              1      1      2      2-4 (G), 0-1 (A)                        
+25. Farahmand, Viktor          HOV              1      0      1      2-3 (G)                                 
+14. Garpenfors, Nils           HOV              1      0      1      1-3 (G)                                 
+21. Mattsson, Ivar             HOV              0      1      1      1-3 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082929
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+28. Manninger, Liam            HÄR              0      2      2      3-4 (A), 3-3 (A)                        
+9. Hedell, Loui                HÄR              1      1      2      3-3 (G), 2-2 (A)                        
+19. Wikner Nilsson, Bill       MÖL              2      0      2      2-1 (G), 1-1 (G)                        
+5. Nosrati Manesh, Ramin       MÖL              0      2      2      2-1 (A), 1-1 (A)                        
+26. Dalvin, Lucas              HÄR              1      0      1      3-4 (G)                                 
+16. Hällqvist, Ebbe            MÖL              1      0      1      3-2 (G)                                 
+12. Broberg, Lukas             MÖL              0      1      1      3-2 (A)                                 
+7. Gulliksson Orre, Rasmus     HÄR              1      0      1      2-2 (G)                                 
+25. Rohlén, Elton              HÄR              1      0      1      0-1 (G)                                 
+11. Berggren, Melvin           HÄR              0      1      1      0-1 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082930
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+29. Valuyskikh, Georgy         HÄR              1      2      3      5-1 (G), 4-0 (A), 1-0 (A)               
+28. Manninger, Liam            HÄR              2      1      3      4-0 (G), 2-0 (A), 1-0 (G)               
+17. Lorentzon, Elias           HOV              2      0      2      5-2 (G), 4-1 (G)                        
+14. Garpenfors, Nils           HOV              0      2      2      5-2 (A), 4-1 (A)                        
+7. Gulliksson Orre, Rasmus     HÄR              1      1      2      5-1 (A), 2-0 (G)                        
+9. Hedell, Loui                HÄR              1      1      2      3-0 (G), 2-0 (A)                        
+17. Sundbrandt, Nils           HÄR              1      0      1      6-2 (G)                                 
+26. Dalvin, Lucas              HÄR              0      1      1      6-2 (A)                                 
+20. Berggren , Charlie         HOV              0      1      1      5-2 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082931
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+17. Axelsson, Gustav           RÖN              1      1      2      3-1 (G), 2-1 (A)                        
+18. Geft, Love                 RÖN              1      1      2      3-1 (A), 2-1 (G)                        
+19. Olvesjö, Noah              RÖN              0      1      1      2-1 (A)                                 
+28. Bergius, Anton             KÅL              1      0      1      1-1 (G)                                 
+29. Frostensson, Viggo         KÅL              0      1      1      1-1 (A)                                 
+15. Sjölin, Oliver             RÖN              1      0      1      1-0 (G)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082932
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+11. Gäärd, Viggo               LER              1      2      3      3-2 (A), 2-1 (A), 1-1 (G)               
+24. Andersson, Douglas         LER              1      1      2      3-2 (A), 2-1 (G)                        
+25. Andersson, Alfred          LER              1      0      1      3-2 (G)                                 
+7. Zotterman, Nils             BÄC              1      0      1      2-2 (G)                                 
+53. Rosén, Tim                 BÄC              0      1      1      2-2 (A)                                 
+4. Ek, Simon                   BÄC              0      1      1      2-2 (A)                                 
+6. Olander, Casper             LER              0      1      1      1-1 (A)                                 
+13. Dahlstrand, Valdemar       BÄC              1      0      1      0-1 (G)                                 
+17. Viking, Gustav             BÄC              0      1      1      0-1 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082933
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+47. Reuterdahl, Vincent        FR               3      2      5      7-2 (G), 5-2 (A), 4-0 (A), 3-0 (G), 2-0 (G)
+55. Liljebjörn, Milo           FR               2      2      4      9-4 (G), 8-3 (A), 7-2 (A), 6-2 (G)      
+48. Hagström, Oskar            FR               0      3      3      5-2 (A), 3-0 (A), 1-0 (A)               
+65. Wier, Fred                 FR               2      0      2      8-3 (G), 4-0 (G)                        
+68. Andersson, Gabriel         FR               2      0      2      5-2 (G), 1-0 (G)                        
+42. Gunes, Leonel              FR               0      2      2      3-0 (A), 2-0 (A)                        
+46. Birknäs, Demi              FR               0      1      1      9-4 (A)                                 
+18. Anglerot, Ludwig           MÖL              1      0      1      8-4 (G)                                 
+9. Bredow, Jonathan            MÖL              0      1      1      8-4 (A)                                 
+16. Hällqvist, Ebbe            MÖL              0      1      1      8-4 (A)                                 
+13. Larsson Fredriksson, William MÖL              1      0      1      7-3 (G)                                 
+21. Carlsson, Hjalmar          MÖL              1      0      1      4-2 (G)                                 
+12. Broberg, Lukas             MÖL              0      1      1      4-2 (A)                                 
+5. Nosrati Manesh, Ramin       MÖL              1      0      1      4-1 (G)                                 
+27. Wernemyr, Valerius         MÖL              0      1      1      4-1 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082934
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+10. Nyström, Abbe              BÄC              1      1      2      2-1 (G), 1-1 (A)                        
+16. Rutgersson, William        RÖN              1      0      1      4-2 (G)                                 
+17. Axelsson, Gustav           RÖN              0      1      1      4-2 (A)                                 
+18. Geft, Love                 RÖN              0      1      1      4-2 (A)                                 
+34. Hermansson, William        BÄC              1      0      1      4-1 (G)                                 
+53. Rosén, Tim                 BÄC              0      1      1      4-1 (A)                                 
+41. Hedenfeldt, Anton          BÄC              0      1      1      2-1 (A)                                 
+11. Stenström, Oskar           BÄC              1      0      1      1-1 (G)                                 
+17. Viking, Gustav             BÄC              0      1      1      1-1 (A)                                 
+19. Olvesjö, Elias             RÖN              1      0      1      0-1 (G)                                 
+21. Johannson, Tom             RÖN              0      1      1      0-1 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082935
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+9. Hedell, Loui                HÄR              2      0      2      2-3 (G), 2-2 (G)                        
+28. Manninger, Liam            HÄR              1      1      2      2-3 (A), 1-1 (G)                        
+25. Rohlén, Elton              HÄR              0      1      1      2-3 (A)                                 
+7. Kagelid, Elias              KÅL              1      0      1      2-1 (G)                                 
+34. Ternström, Alice           KÅL              0      1      1      2-1 (A)                                 
+7. Gulliksson Orre, Rasmus     HÄR              0      1      1      1-1 (A)                                 
+13. Svensson Josefsson, Nils   KÅL              1      0      1      1-0 (G)                                 
+21. Ternström, Arvid           KÅL              0      1      1      1-0 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082936
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+24. Vikström, Filip            HOV              2      1      3      3-0 (A), 2-0 (G), 1-0 (G)               
+21. Mattsson, Ivar             HOV              1      1      2      3-0 (G), 1-0 (A)                        
+18. Anglerot, Ludwig           MÖL              1      0      1      3-1 (G)                                 
+22. Kruus, Clara               MÖL              0      1      1      3-1 (A)                                 
+14. Garpenfors, Nils           HOV              0      1      1      2-0 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082937
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+24. Andersson, Douglas         LER              2      1      3      3-3 (G), 0-2 (G), 0-1 (A)               
+68. Andersson, Gabriel         FR               2      0      2      5-3 (G), 3-2 (G)                        
+55. Liljebjörn, Milo           FR               2      0      2      4-3 (G), 2-2 (G)                        
+65. Wier, Fred                 FR               0      2      2      4-3 (A), 2-2 (A)                        
+47. Reuterdahl, Vincent        FR               1      1      2      3-2 (A), 1-2 (G)                        
+49. Sjöström, Carl             FR               0      1      1      5-3 (A)                                 
+48. Hagström, Oskar            FR               0      1      1      3-2 (A)                                 
+46. Birknäs, Demi              FR               0      1      1      1-2 (A)                                 
+52. Sepulveda, Nahuel          FR               0      1      1      1-2 (A)                                 
+20. Fihn, Anton                LER              1      0      1      0-1 (G)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082938
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+6. Ruona, Jonathan             KÅL              2      0      2      1-3 (G), 1-1 (G)                        
+19. Sörman, Winston            KÅL              1      0      1      2-4 (G)                                 
+27. Wernemyr, Valerius         MÖL              1      0      1      2-3 (G)                                 
+16. Hällqvist, Ebbe            MÖL              0      1      1      2-3 (A)                                 
+29. Frostensson, Viggo         KÅL              1      0      1      1-2 (G)                                 
+38. Nilsson, Anton             KÅL              0      1      1      1-2 (A)                                 
+2. Kellett, Edmund             KÅL              0      1      1      1-1 (A)                                 
+21. Carlsson, Hjalmar          MÖL              1      0      1      1-0 (G)                                 
+22. Kruus, Clara               MÖL              0      1      1      1-0 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082939
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+10. Nyström, Abbe              BÄC              1      1      2      2-3 (A), 1-2 (G)                        
+13. Dahlstrand, Valdemar       BÄC              1      0      1      2-3 (G)                                 
+8. Thorin, Nils                HÄR              1      0      1      2-2 (G)                                 
+7. Gulliksson Orre, Rasmus     HÄR              0      1      1      2-2 (A)                                 
+4. Ek, Simon                   BÄC              0      1      1      1-2 (A)                                 
+57. Valkola, Edvin             BÄC              1      0      1      1-1 (G)                                 
+53. Rosén, Tim                 BÄC              0      1      1      1-1 (A)                                 
+22. Örneflo, Lionel            HÄR              1      0      1      1-0 (G)                                 
+25. Rohlén, Elton              HÄR              0      1      1      1-0 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082940
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+11. Gäärd, Viggo               LER              2      1      3      2-4 (G), 1-2 (A), 0-1 (G)               
+2. Tallvik, Frank              RÖN              1      1      2      4-4 (A), 1-1 (G)                        
+15. Sjölin, Oliver             RÖN              0      2      2      3-4 (A), 1-1 (A)                        
+24. Andersson, Douglas         LER              2      0      2      1-3 (G), 1-2 (G)                        
+27. Perez, Milo                LER              0      2      2      1-3 (A), 1-2 (A)                        
+16. Rutgersson, William        RÖN              1      0      1      4-4 (G)                                 
+21. Johannson, Tom             RÖN              1      0      1      3-4 (G)                                 
+13. Wennberg, Junior           RÖN              1      0      1      2-3 (G)                                 
+8. Gottlander , Casper         RÖN              0      1      1      1-1 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082941
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+55. Liljebjörn, Milo           FR               3      1      4      7-2 (G), 6-1 (G), 4-1 (A), 3-1 (G)      
+65. Wier, Fred                 FR               2      0      2      8-2 (G), 1-0 (G)                        
+47. Reuterdahl, Vincent        FR               1      1      2      6-1 (A), 2-1 (G)                        
+41. Farinder, Leon             FR               0      1      1      8-2 (A)                                 
+14. Garpenfors, Nils           HOV              1      0      1      6-2 (G)                                 
+22. Ottosson, Sam              HOV              0      1      1      6-2 (A)                                 
+24. Vikström, Filip            HOV              0      1      1      6-2 (A)                                 
+42. Gunes, Leonel              FR               1      0      1      4-1 (G)                                 
+68. Andersson, Gabriel         FR               0      1      1      2-1 (A)                                 
+48. Hagström, Oskar            FR               0      1      1      2-1 (A)                                 
+17. Lorentzon, Elias           HOV              1      0      1      1-1 (G)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082942
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+7. Zotterman, Nils             BÄC              2      0      2      3-0 (G), 1-0 (G)                        
+6. Ruona, Jonathan             KÅL              1      0      1      4-1 (G)                                 
+4. Landervik, Valter           KÅL              0      1      1      4-1 (A)                                 
+13. Dahlstrand, Valdemar       BÄC              1      0      1      4-0 (G)                                 
+10. Nyström, Abbe              BÄC              0      1      1      4-0 (A)                                 
+57. Valkola, Edvin             BÄC              0      1      1      3-0 (A)                                 
+9. Ghanbari, Leonel            BÄC              1      0      1      2-0 (G)                                 
+53. Rosén, Tim                 BÄC              0      1      1      1-0 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082943
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+55. Liljebjörn, Milo           FR               2      1      3      1-3 (G), 0-2 (A), 0-1 (G)               
+42. Gunes, Leonel              FR               0      1      1      1-3 (A)                                 
+29. Valuyskikh, Georgy         HÄR              1      0      1      1-2 (G)                                 
+16. Bennergård, Gustav         HÄR              0      1      1      1-2 (A)                                 
+41. Farinder, Leon             FR               1      0      1      0-2 (G)                                 
+47. Reuterdahl, Vincent        FR               0      1      1      0-1 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082944
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+24. Andersson, Douglas         LER              1      3      4      2-5 (G), 2-4 (A), 1-3 (A), 1-2 (A)      
+11. Gäärd, Viggo               LER              3      0      3      2-6 (G), 2-4 (G), 1-3 (G)               
+3. Rapp, Brodde                LER              0      2      2      2-5 (A), 1-1 (A)                        
+4. Heno Qwinten, Leon          LER              0      1      1      2-6 (A)                                 
+14. Garpenfors, Nils           HOV              1      0      1      2-3 (G)                                 
+3. Folkssson, Sixten           HOV              0      1      1      2-3 (A)                                 
+2. Vikström, Noa               LER              1      0      1      1-2 (G)                                 
+25. Andersson, Alfred          LER              1      0      1      1-1 (G)                                 
+25. Farahmand, Viktor          HOV              1      0      1      1-0 (G)                                 
+10. Strömwall, Dante           HOV              0      1      1      1-0 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082945
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+19. Olvesjö, Noah              RÖN              2      1      3      1-4 (A), 1-3 (G), 1-1 (G)               
+21. Carlsson, Hjalmar          MÖL              1      1      2      3-5 (A), 1-0 (G)                        
+18. Geft, Love                 RÖN              1      1      2      1-4 (G), 1-2 (A)                        
+17. Axelsson, Gustav           RÖN              0      2      2      1-3 (A), 1-1 (A)                        
+5. Nosrati Manesh, Ramin       MÖL              1      0      1      3-5 (G)                                 
+20. Mandelholm, Alfred         RÖN              1      0      1      2-5 (G)                                 
+18. Anglerot, Ludwig           MÖL              1      0      1      2-4 (G)                                 
+22. Kruus, Clara               MÖL              0      1      1      2-4 (A)                                 
+15. Sjölin, Oliver             RÖN              1      0      1      1-2 (G)                                 
+16. Hällqvist, Ebbe            MÖL              0      1      1      1-0 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082946
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+10. Nyström, Abbe              BÄC              1      1      2      4-3 (G), 1-0 (A)                        
+11. Stenström, Oskar           BÄC              0      1      1      4-3 (A)                                 
+53. Rosén, Tim                 BÄC              1      0      1      3-3 (G)                                 
+16. Dellenmark, Emrick         BÄC              0      1      1      3-3 (A)                                 
+16. Hällqvist, Ebbe            MÖL              1      0      1      2-3 (G)                                 
+13. Dahlstrand, Valdemar       BÄC              1      0      1      2-2 (G)                                 
+21. Carlsson, Hjalmar          MÖL              1      0      1      1-2 (G)                                 
+12. Broberg, Lukas             MÖL              0      1      1      1-2 (A)                                 
+38. Lund, Theodor              BÄC              1      0      1      1-0 (G)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082947
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+14. Garpenfors, Nils           HOV              2      0      2      0-2 (G), 0-1 (G)                        
+23. Rehnström, Johan           HOV              1      0      1      0-3 (G)                                 
+22. Ottosson, Sam              HOV              0      1      1      0-3 (A)                                 
+24. Vikström, Filip            HOV              0      1      1      0-2 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082948
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+19. Olvesjö, Noah              RÖN              1      1      2      5-1 (G)ENG, 3-1 (A)                     
+21. Johannson, Tom             RÖN              1      1      2      2-1 (A), 1-0 (G)                        
+13. Wennberg, Junior           RÖN              0      1      1      5-1 (A)ENG                              
+17. Axelsson, Gustav           RÖN              1      0      1      3-1 (G)                                 
+12. Johansson, Charlie         RÖN              1      0      1      2-1 (G)                                 
+47. Reuterdahl, Vincent        FR               1      0      1      1-1 (G)                                 
+68. Andersson, Gabriel         FR               0      1      1      1-1 (A)                                 
+42. Gunes, Leonel              FR               0      1      1      1-1 (A)                                 
+15. Sjölin, Oliver             RÖN              0      1      1      1-0 (A)                                 
+2. Tallvik, Frank              RÖN              0      1      1      1-0 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082949
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+7. Gulliksson Orre, Rasmus     HÄR              1      1      2      1-3 (A), 0-1 (G)                        
+28. Manninger, Liam            HÄR              1      0      1      1-3 (G)                                 
+9. Hedell, Loui                HÄR              1      0      1      1-2 (G)                                 
+11. Gäärd, Viggo               LER              1      0      1      1-1 (G)                                 
+25. Andersson, Alfred          LER              0      1      1      1-1 (A)                                 
+24. Andersson, Douglas         LER              0      1      1      1-1 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082950
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+
+Source: https://stats.swehockey.se/Game/Events/1082951
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+24. Andersson, Douglas         LER              2      3      5      2-7 (A), 2-6 (G), 0-3 (A), 0-2 (A), 0-1 (G)
+27. Perez, Milo                LER              1      2      3      2-7 (G), 0-4 (A), 0-1 (A)               
+8. Wikner Nilsson, Bill        MÖL              1      0      1      2-5 (G)                                 
+3. Larsson Fredriksson, William MÖL              0      1      1      2-5 (A)                                 
+21. Carlsson, Hjalmar          MÖL              1      0      1      1-5 (G)                                 
+11. Gäärd, Viggo               LER              1      0      1      0-4 (G)                                 
+25. Andersson, Alfred          LER              1      0      1      0-3 (G)                                 
+20. Fihn, Anton                LER              1      0      1      0-2 (G)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082952
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+28. Manninger, Liam            HÄR              2      1      3      4-1 (G), 3-0 (G), 2-0 (A)               
+9. Hedell, Loui                HÄR              1      1      2      4-1 (A), 2-0 (G)                        
+12. Johansson, Charlie         RÖN              1      0      1      3-1 (G)                                 
+17. Axelsson, Gustav           RÖN              0      1      1      3-1 (A)                                 
+29. Valuyskikh, Georgy         HÄR              0      1      1      3-0 (A)                                 
+22. Örneflo, Lionel            HÄR              1      0      1      1-0 (G)                                 
+16. Bennergård, Gustav         HÄR              0      1      1      1-0 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082953
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+47. Reuterdahl, Vincent        FR               4      0      4      5-4 (G), 4-4 (G), 3-4 (G), 1-0 (G)      
+55. Liljebjörn, Milo           FR               0      1      1      5-4 (A)                                 
+42. Gunes, Leonel              FR               0      1      1      5-4 (A)                                 
+67. Zornig Zobbe, Christian    FR               0      1      1      4-4 (A)                                 
+28. Bergius, Anton             KÅL              1      0      1      2-4 (G)                                 
+68. Andersson, Gabriel         FR               1      0      1      2-3 (G)                                 
+48. Hagström, Oskar            FR               0      1      1      2-3 (A)                                 
+21. Ternström, Arvid           KÅL              1      0      1      1-3 (G)                                 
+16. Bergfeldt, Folke           KÅL              0      1      1      1-3 (A)                                 
+29. Frostensson, Viggo         KÅL              0      1      1      1-3 (A)                                 
+7. Kagelid, Elias              KÅL              1      0      1      1-1 (G)                                 
+41. Farinder, Leon             FR               0      1      1      1-0 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082954
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+55. Liljebjörn, Milo           FR               1      1      2      4-3 (A), 3-2 (G)                        
+53. Rosén, Tim                 BÄC              1      1      2      3-3 (A), 1-1 (G)                        
+48. Hagström, Oskar            FR               1      1      2      2-1 (G), 1-0 (A)                        
+47. Reuterdahl, Vincent        FR               1      0      1      4-3 (G)                                 
+57. Valkola, Edvin             BÄC              1      0      1      3-3 (G)                                 
+65. Wier, Fred                 FR               0      1      1      3-2 (A)                                 
+10. Nyström, Abbe              BÄC              1      0      1      2-2 (G)                                 
+9. Ghanbari, Leonel            BÄC              0      1      1      2-2 (A)                                 
+68. Andersson, Gabriel         FR               0      1      1      2-1 (A)                                 
+67. Zornig Zobbe, Christian    FR               1      0      1      1-0 (G)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082955
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+24. Andersson, Douglas         LER              3      0      3      6-1 (G), 3-1 (G), 1-0 (G)               
+3. Rapp, Brodde                LER              1      2      3      4-1 (G), 3-1 (A), 1-0 (A)               
+20. Fihn, Anton                LER              0      2      2      4-1 (A), 3-1 (A)                        
+27. Perez, Milo                LER              0      1      1      6-1 (A)                                 
+28. Hellström, Emil            LER              0      1      1      6-1 (A)                                 
+2. Vikström, Noa               LER              1      0      1      5-1 (G)                                 
+8. Jarl, Adam                  LER              0      1      1      5-1 (A)                                 
+29. Nilsson, Anton             KÅL              1      0      1      2-1 (G)                                 
+14. Gustafsson, Loui           KÅL              0      1      1      2-1 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082956
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+14. Garpenfors, Nils           HOV              2      0      2      0-3 (G), 0-2 (G)                        
+21. Mattsson, Ivar             HOV              0      2      2      0-3 (A), 0-1 (A)                        
+10. Strömwall, Dante           HOV              0      1      1      0-2 (A)                                 
+25. Farahmand, Viktor          HOV              1      0      1      0-1 (G)                                 
+22. Ottosson, Sam              HOV              0      1      1      0-1 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082957
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+28. Manninger, Liam            HÄR              3      1      4      5-0 (G), 4-0 (G), 3-0 (G), 1-0 (A)      
+9. Hedell, Loui                HÄR              0      1      1      5-0 (A)                                 
+19. Lundqvist, Oscar           HÄR              0      1      1      4-0 (A)                                 
+17. Sundbrandt, Nils           HÄR              0      1      1      3-0 (A)                                 
+16. Bennergård, Gustav         HÄR              1      0      1      2-0 (G)                                 
+25. Rohlén, Elton              HÄR              1      0      1      1-0 (G)                                 
+8. Thorin, Nils                HÄR              0      1      1      1-0 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082958
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+25. Rohlén, Elton              HÄR              2      0      2      1-2 (G), 0-1 (G)                        
+22. Örneflo, Lionel            HÄR              0      2      2      1-2 (A), 0-1 (A)                        
+9. Hedell, Loui                HÄR              1      0      1      2-3 (G)                                 
+28. Manninger, Liam            HÄR              0      1      1      2-3 (A)                                 
+12. Almsparre, Vilhelm         HOV              1      0      1      2-2 (G)                                 
+25. Farahmand, Viktor          HOV              0      1      1      2-2 (A)                                 
+15. Johansson Alsnäs, Helmer   HOV              1      0      1      1-1 (G)                                 
+24. Vikström, Filip            HOV              0      1      1      1-1 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082959
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+4. Landervik, Valter           KÅL              3      0      3      6-2 (G), 3-1 (G), 1-1 (G)               
+27. Boström, Noah              KÅL              1      1      2      5-2 (G), 4-2 (A)                        
+28. Bergius, Anton             KÅL              0      2      2      5-2 (A), 1-1 (A)                        
+16. Bergfeldt, Folke           KÅL              0      2      2      3-1 (A), 2-1 (A)                        
+2. Tallvik, Frank              RÖN              1      0      1      6-3 (G)                                 
+11. Hermansson, Wille          RÖN              0      1      1      6-3 (A)                                 
+29. Frostensson, Viggo         KÅL              1      0      1      4-2 (G)                                 
+21. Johannson, Tom             RÖN              1      0      1      3-2 (G)                                 
+19. Olvesjö, Noah              RÖN              0      1      1      3-2 (A)                                 
+15. Lember, Max                KÅL              0      1      1      3-1 (A)                                 
+19. Sörman, Winston            KÅL              1      0      1      2-1 (G)                                 
+16. Rutgersson, William        RÖN              1      0      1      0-1 (G)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082960
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+24. Andersson, Douglas         LER              3      0      3      4-5 (G), 2-3 (G), 1-2 (G)               
+10. Nyström, Abbe              BÄC              2      1      3      4-3 (A), 3-3 (G), 2-2 (G)               
+28. Hellström, Emil            LER              1      1      2      4-5 (A), 1-1 (G)                        
+4. Ek, Simon                   BÄC              1      0      1      5-5 (G)                                 
+11. Gäärd, Viggo               LER              0      1      1      4-5 (A)                                 
+2. Vikström, Noa               LER              1      0      1      4-4 (G)                                 
+13. Dahlstrand, Valdemar       BÄC              1      0      1      4-3 (G)                                 
+11. Stenström, Oskar           BÄC              0      1      1      3-3 (A)                                 
+27. Perez, Milo                LER              0      1      1      1-2 (A)                                 
+12. Kivistö, Elmer             LER              0      1      1      1-1 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082961
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+55. Liljebjörn, Milo           FR               3      1      4      0-7 (A), 0-5 (G), 0-3 (G), 0-2 (G)      
+65. Wier, Fred                 FR               1      2      3      0-8 (A), 0-7 (A), 0-4 (G)               
+47. Reuterdahl, Vincent        FR               1      2      3      0-7 (G), 0-3 (A), 0-2 (A)               
+68. Andersson, Gabriel         FR               1      2      3      0-6 (G), 0-4 (A), 0-1 (A)               
+48. Hagström, Oskar            FR               2      0      2      0-8 (G), 0-1 (G)                        
+46. Birknäs, Demi              FR               0      1      1      0-5 (A)                                 
+41. Farinder, Leon             FR               0      1      1      0-3 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082962
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+16. Rutgersson, William        RÖN              1      1      2      4-0 (G), 3-0 (A)                        
+19. Olvesjö, Noah              RÖN              2      0      2      3-0 (G), 1-0 (G)                        
+13. Wennberg, Junior           RÖN              0      2      2      2-0 (A), 1-0 (A)                        
+18. Geft, Love                 RÖN              0      1      1      4-0 (A)                                 
+12. Johansson, Charlie         RÖN              1      0      1      2-0 (G)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082963
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+9. Hedell, Loui                HÄR              1      1      2      2-1 (A), 1-0 (G)                        
+29. Frostensson, Viggo         KÅL              1      0      1      2-2 (G)                                 
+15. Lember, Max                KÅL              0      1      1      2-2 (A)                                 
+22. Örneflo, Lionel            HÄR              1      0      1      2-1 (G)                                 
+11. Berggren, Melvin           HÄR              0      1      1      2-1 (A)                                 
+7. Kagelid, Elias              KÅL              1      0      1      1-1 (G)                                 
+29. Valuyskikh, Georgy         HÄR              0      1      1      1-0 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082964
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+15. Johansson Alsnäs, Helmer   HOV              2      3      5      1-12 (A), 1-11 (G), 1-10 (A), 0-4 (A), 0-2 (G)
+14. Garpenfors, Nils           HOV              2      2      4      1-13 (G), 0-8 (A), 0-3 (G), 0-1 (A)     
+25. Farahmand, Viktor          HOV              2      2      4      1-13 (A), 0-8 (G), 0-5 (A), 0-1 (G)     
+22. Ottosson, Sam              HOV              3      0      3      1-12 (G), 0-6 (G), 0-4 (G)              
+21. Mattsson, Ivar             HOV              1      2      3      1-12 (A), 0-6 (A), 0-5 (G)              
+23. Johansson Olah, Linus      HOV              2      0      2      1-10 (G), 0-7 (G)                       
+24. Vikström, Filip            HOV              0      2      2      0-4 (A), 0-2 (A)                        
+21. Carlsson, Hjalmar          MÖL              1      0      1      2-13 (G)                                
+15. Meyer, Sigge               MÖL              0      1      1      2-13 (A)                                
+7. Roos, Carl-Axel             MÖL              1      0      1      1-8 (G)                                 
+11. Benzler Svensson, Morris   MÖL              0      1      1      1-8 (A)                                 
+13. Hafström, Theo             HOV              0      1      1      0-7 (A)                                 
+10. Strömwall, Dante           HOV              0      1      1      0-5 (A)                                 
+6. Hedvall, Max                HOV              0      1      1      0-3 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082965
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+27. Perez, Milo                LER              2      2      4      6-4 (A)ENG, 4-3 (A), 3-3 (G), 2-3 (G)   
+24. Andersson, Douglas         LER              3      0      3      6-4 (G)ENG, 4-3 (G), 1-0 (G)            
+47. Reuterdahl, Vincent        FR               2      1      3      4-4 (G), 1-2 (G), 1-1 (A)               
+11. Gäärd, Viggo               LER              0      3      3      3-3 (A), 2-3 (A), 1-0 (A)               
+55. Liljebjörn, Milo           FR               1      2      3      1-3 (A), 1-2 (A), 1-1 (G)               
+28. Hellström, Emil            LER              1      0      1      7-4 (G)ENG                              
+21. Alexandersson, Philipe     LER              1      0      1      5-4 (G)                                 
+3. Rapp, Brodde                LER              0      1      1      5-4 (A)                                 
+41. Farinder, Leon             FR               1      0      1      1-3 (G)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082966
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+29. Frostensson, Viggo         KÅL              1      1      2      2-0 (A), 1-0 (G)                        
+15. Meyer, Sigge               MÖL              1      0      1      3-2 (G)                                 
+11. Benzler Svensson, Morris   MÖL              0      1      1      3-2 (A)                                 
+13. Larsson Fredriksson, William MÖL              0      1      1      3-2 (A)                                 
+28. Bergius, Anton             KÅL              1      0      1      2-0 (G)                                 
+21. Ternström, Arvid           KÅL              0      1      1      2-0 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082967
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+7. Zotterman, Nils             BÄC              0      2      2      2-1 (A), 1-1 (A)                        
+41. Hedenfeldt, Anton          BÄC              1      0      1      2-1 (G)                                 
+53. Rosén, Tim                 BÄC              1      0      1      1-1 (G)                                 
+9. Hedell, Loui                HÄR              1      0      1      0-1 (G)                                 
+28. Manninger, Liam            HÄR              0      1      1      0-1 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082968
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+24. Andersson, Douglas         LER              2      1      3      4-1 (G), 3-0 (G), 1-0 (A)               
+27. Perez, Milo                LER              0      2      2      4-1 (A), 3-0 (A)                        
+15. Sjölin, Oliver             RÖN              1      0      1      3-1 (G)                                 
+2. Vikström, Noa               LER              1      0      1      2-0 (G)                                 
+3. Rapp, Brodde                LER              0      1      1      2-0 (A)                                 
+11. Gäärd, Viggo               LER              1      0      1      1-0 (G)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082969
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+55. Liljebjörn, Milo           FR               3      5      8      4-11 (A), 4-10 (A), 3-9 (G), 3-8 (G), 2-7 (G), 2-5 (A), 0-3 (A), 0-2 (A)
+47. Reuterdahl, Vincent        FR               5      2      7      5-12 (G), 4-11 (G), 2-7 (A), 2-5 (G), 0-3 (G), 0-2 (G), 0-1 (A)
+14. Garpenfors, Nils           HOV              3      0      3      3-7 (G), 2-4 (G), 1-3 (G)               
+22. Ottosson, Sam              HOV              2      0      2      5-11 (G), 4-9 (G)                       
+15. Johansson Alsnäs, Helmer   HOV              0      2      2      5-11 (A), 2-4 (A)                       
+25. Farahmand, Viktor          HOV              0      2      2      5-11 (A), 4-9 (A)                       
+48. Hagström, Oskar            FR               1      1      2      4-10 (G), 0-3 (A)                       
+21. Mattsson, Ivar             HOV              0      2      2      3-7 (A), 1-3 (A)                        
+4. Ljusteräng, Filip           FR               0      2      2      2-6 (A), 0-1 (A)                        
+40. Eriksson, Alexander        FR               0      1      1      5-12 (A)                                
+42. Gunes, Leonel              FR               0      1      1      3-9 (A)                                 
+12. Almsparre, Vilhelm         HOV              0      1      1      3-7 (A)                                 
+53. Stenqvist, Noël            FR               1      0      1      2-6 (G)                                 
+41. Farinder, Leon             FR               0      1      1      2-5 (A)                                 
+59. Vujovic, Bogdan            FR               1      0      1      0-1 (G)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082970
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+
+Source: https://stats.swehockey.se/Game/Events/1082971
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+42. Gunes, Leonel              FR               2      0      2      2-0 (G), 1-0 (G)                        
+48. Hagström, Oskar            FR               1      0      1      4-2 (G)                                 
+9. Hedell, Loui                HÄR              1      0      1      3-2 (G)                                 
+22. Örneflo, Lionel            HÄR              0      1      1      3-2 (A)                                 
+28. Manninger, Liam            HÄR              1      0      1      3-1 (G)                                 
+21. Ivekrans, Linus            HÄR              0      1      1      3-1 (A)                                 
+55. Liljebjörn, Milo           FR               1      0      1      3-0 (G)                                 
+68. Andersson, Gabriel         FR               0      1      1      1-0 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082972
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+24. Andersson, Douglas         LER              2      1      3      3-4 (G), 2-2 (G), 1-1 (A)               
+11. Gäärd, Viggo               LER              0      3      3      3-4 (A), 2-2 (A), 1-1 (A)               
+14. Garpenfors, Nils           HOV              2      1      3      2-3 (A), 1-2 (G), 0-1 (G)               
+22. Ottosson, Sam              HOV              1      1      2      2-4 (G), 0-1 (A)                        
+23. Rehnström, Johan           HOV              0      2      2      2-4 (A), 0-1 (A)                        
+21. Mattsson, Ivar             HOV              1      1      2      2-3 (G), 1-2 (A)                        
+20. Fihn, Anton                LER              0      1      1      3-4 (A)                                 
+3. Rapp, Brodde                LER              0      1      1      2-2 (A)                                 
+27. Perez, Milo                LER              1      0      1      1-1 (G)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082973
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+21. Carlsson, Hjalmar          MÖL              3      0      3      2-5 (G), 2-3 (G), 0-1 (G)               
+18. Geft, Love                 RÖN              1      1      2      3-5 (A), 1-1 (G)                        
+18. Anglerot, Ludwig           MÖL              1      1      2      2-5 (A), 2-4 (G)                        
+16. Rutgersson, William        RÖN              1      0      1      3-5 (G)                                 
+19. Olvesjö, Noah              RÖN              0      1      1      3-5 (A)                                 
+15. Meyer, Sigge               MÖL              0      1      1      2-4 (A)                                 
+11. Benzler Svensson, Morris   MÖL              1      0      1      2-2 (G)                                 
+10. Ganemyr, Hugo              RÖN              1      0      1      2-1 (G)                                 
+12. Johansson, Charlie         RÖN              0      1      1      2-1 (A)                                 
+5. Melander, Liam              RÖN              0      1      1      1-1 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082974
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+10. Nyström, Abbe              BÄC              2      3      5      0-10 (A), 0-9 (A), 0-7 (G), 0-6 (A), 0-3 (G)
+8. Aagaard, Kalle              BÄC              0      3      3      0-8 (A), 0-7 (A), 0-2 (A)               
+44. Stocks, Vincent            BÄC              1      2      3      0-6 (A), 0-4 (A), 0-1 (G)               
+53. Rosén, Tim                 BÄC              2      1      3      0-5 (G), 0-4 (G), 0-1 (A)               
+13. Dahlstrand, Valdemar       BÄC              2      0      2      0-10 (G), 0-6 (G)                       
+7. Zotterman, Nils             BÄC              1      0      1      0-9 (G)                                 
+4. Ek, Simon                   BÄC              1      0      1      0-8 (G)                                 
+57. Valkola, Edvin             BÄC              0      1      1      0-5 (A)                                 
+38. Lund, Theodor              BÄC              0      1      1      0-3 (A)                                 
+16. Dellenmark, Emrick         BÄC              1      0      1      0-2 (G)                                 
+6. Johansson, Elise            BÄC              0      1      1      0-1 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082975
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+18. Nilsson, Ludde             KÅL              1      0      1      1-1 (G)                                 
+29. Frostensson, Viggo         KÅL              0      1      1      1-1 (A)                                 
+22. Ottosson, Sam              HOV              1      0      1      1-0 (G)                                 
+21. Mattsson, Ivar             HOV              0      1      1      1-0 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082976
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+47. Reuterdahl, Vincent        FR               1      0      1      1-1 (G)                                 
+49. Sjöström, Carl             FR               0      1      1      1-1 (A)                                 
+19. Olvesjö, Noah              RÖN              1      0      1      0-1 (G)                                 
+9. Mattsson, Louie             RÖN              0      1      1      0-1 (A)                                 
+15. Sjölin, Oliver             RÖN              0      1      1      0-1 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082977
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+24. Andersson, Douglas         LER              2      0      2      0-3 (G), 0-2 (G)                        
+27. Perez, Milo                LER              0      1      1      0-3 (A)                                 
+11. Gäärd, Viggo               LER              0      1      1      0-2 (A)                                 
+3. Rapp, Brodde                LER              1      0      1      0-1 (G)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082980
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+10. Lindqvist, Johan           HÄR              5      2      7      0-10 (G), 0-9 (A), 0-8 (G), 0-6 (G), 0-5 (G), 0-2 (A), 0-1 (G)
+28. Manninger, Liam            HÄR              1      2      3      0-7 (A), 0-6 (A), 0-2 (G)               
+7. Gulliksson Orre, Rasmus     HÄR              0      2      2      0-10 (A), 0-8 (A)                       
+9. Hedell, Loui                HÄR              2      0      2      0-9 (G), 0-7 (G)                        
+29. Valuyskikh, Georgy         HÄR              1      1      2      0-4 (A), 0-3 (G)                        
+11. Berggren, Melvin           HÄR              1      0      1      0-4 (G)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082981
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+44. Andersson, Gabriel         FR               2      0      2      2-4 (G), 2-2 (G)                        
+55. Liljebjörn, Milo           FR               0      2      2      2-3 (A), 0-1 (A)                        
+29. Frostensson, Viggo         KÅL              1      1      2      2-1 (G), 1-1 (A)                        
+49. Sjöström, Carl             FR               0      1      1      2-4 (A)                                 
+48. Hagström, Oskar            FR               0      1      1      2-4 (A)                                 
+39. Sepulveda, Nahuel          FR               1      0      1      2-3 (G)                                 
+41. Farinder, Leon             FR               0      1      1      2-2 (A)                                 
+42. Gunes, Leonel              FR               0      1      1      2-2 (A)                                 
+28. Bergius, Anton             KÅL              1      0      1      1-1 (G)                                 
+47. Reuterdahl, Vincent        FR               1      0      1      0-1 (G)                                 
+
+
+SUMMARY: Total Goals (G), Assists (A), and Points per player
+Player                         Team     G      A      Points
+------------------------------------------------------------
+24. Andersson, Douglas         LER      25     12     37    
+55. Liljebjörn, Milo           FR       19     18     37    
+47. Reuterdahl, Vincent        FR       24     11     35    
+11. Gäärd, Viggo               LER      9      13     22    
+28. Manninger, Liam            HÄR      11     10     21    
+14. Garpenfors, Nils           HOV      14     6      20    
+9. Hedell, Loui                HÄR      12     5      17    
+10. Nyström, Abbe              BÄC      9      8      17    
+27. Perez, Milo                LER      6      11     17    
+48. Hagström, Oskar            FR       5      11     16    
+68. Andersson, Gabriel         FR       7      7      14    
+19. Olvesjö, Noah              RÖN      7      6      13    
+21. Mattsson, Ivar             HOV      3      10     13    
+53. Rosén, Tim                 BÄC      5      7      12    
+22. Ottosson, Sam              HOV      7      4      11    
+17. Axelsson, Gustav           RÖN      4      7      11    
+42. Gunes, Leonel              FR       3      8      11    
+21. Carlsson, Hjalmar          MÖL      9      1      10    
+25. Farahmand, Viktor          HOV      5      5      10    
+29. Frostensson, Viggo         KÅL      5      5      10    
+65. Wier, Fred                 FR       5      5      10    
+13. Dahlstrand, Valdemar       BÄC      8      1      9     
+7. Gulliksson Orre, Rasmus     HÄR      3      6      9     
+3. Rapp, Brodde                LER      2      7      9     
+15. Johansson Alsnäs, Helmer   HOV      3      5      8     
+18. Geft, Love                 RÖN      3      5      8     
+20. Fihn, Anton                LER      3      5      8     
+29. Valuyskikh, Georgy         HÄR      3      5      8     
+24. Vikström, Filip            HOV      2      6      8     
+10. Lindqvist, Johan           HÄR      5      2      7     
+21. Johannson, Tom             RÖN      4      3      7     
+15. Sjölin, Oliver             RÖN      3      4      7     
+41. Farinder, Leon             FR       2      5      7     
+16. Rutgersson, William        RÖN      5      1      6     
+25. Rohlén, Elton              HÄR      4      2      6     
+28. Bergius, Anton             KÅL      4      2      6     
+7. Zotterman, Nils             BÄC      4      2      6     
+22. Örneflo, Lionel            HÄR      3      3      6     
+18. Anglerot, Ludwig           MÖL      4      1      5     
+25. Andersson, Alfred          LER      3      2      5     
+28. Hellström, Emil            LER      3      2      5     
+16. Hällqvist, Ebbe            MÖL      2      3      5     
+2. Vikström, Noa               LER      4      0      4     
+12. Johansson, Charlie         RÖN      3      1      4     
+4. Landervik, Valter           KÅL      3      1      4     
+11. Stenström, Oskar           BÄC      2      2      4     
+2. Tallvik, Frank              RÖN      2      2      4     
+4. Ek, Simon                   BÄC      2      2      4     
+5. Nosrati Manesh, Ramin       MÖL      2      2      4     
+57. Valkola, Edvin             BÄC      2      2      4     
+13. Wennberg, Junior           RÖN      1      3      4     
+6. Olander, Casper             LER      1      3      4     
+8. Aagaard, Kalle              BÄC      1      3      4     
+17. Viking, Gustav             BÄC      0      4      4     
+17. Lorentzon, Elias           HOV      3      0      3     
+6. Ruona, Jonathan             KÅL      3      0      3     
+7. Kagelid, Elias              KÅL      3      0      3     
+11. Benzler Svensson, Morris   MÖL      1      2      3     
+11. Berggren, Melvin           HÄR      1      2      3     
+15. Meyer, Sigge               MÖL      1      2      3     
+16. Bennergård, Gustav         HÄR      1      2      3     
+21. Ternström, Arvid           KÅL      1      2      3     
+23. Rehnström, Johan           HOV      1      2      3     
+44. Stocks, Vincent            BÄC      1      2      3     
+10. Strömwall, Dante           HOV      0      3      3     
+12. Broberg, Lukas             MÖL      0      3      3     
+16. Bergfeldt, Folke           KÅL      0      3      3     
+22. Kruus, Clara               MÖL      0      3      3     
+46. Birknäs, Demi              FR       0      3      3     
+49. Sjöström, Carl             FR       0      3      3     
+19. Sörman, Winston            KÅL      2      0      2     
+19. Wikner Nilsson, Bill       MÖL      2      0      2     
+23. Johansson Olah, Linus      HOV      2      0      2     
+44. Andersson, Gabriel         FR       2      0      2     
+12. Almsparre, Vilhelm         HOV      1      1      2     
+13. Larsson Fredriksson, William MÖL          1      1      2     
+16. Dellenmark, Emrick         BÄC      1      1      2     
+17. Sundbrandt, Nils           HÄR      1      1      2     
+26. Dalvin, Lucas              HÄR      1      1      2     
+27. Boström, Noah              KÅL      1      1      2     
+27. Wernemyr, Valerius         MÖL      1      1      2     
+38. Lund, Theodor              BÄC      1      1      2     
+41. Hedenfeldt, Anton          BÄC      1      1      2     
+59. Vujovic, Bogdan            FR       1      1      2     
+67. Zornig Zobbe, Christian    FR       1      1      2     
+8. Thorin, Nils                HÄR      1      1      2     
+9. Ghanbari, Leonel            BÄC      1      1      2     
+15. Lember, Max                KÅL      0      2      2     
+4. Ljusteräng, Filip           FR       0      2      2     
+10. Ganemyr, Hugo              RÖN      1      0      1     
+13. Svensson Josefsson, Nils   KÅL      1      0      1     
+18. Nilsson, Ludde             KÅL      1      0      1     
+19. Olvesjö, Elias             RÖN      1      0      1     
+20. Mandelholm, Alfred         RÖN      1      0      1     
+21. Alexandersson, Philipe     LER      1      0      1     
+29. Nilsson, Anton             KÅL      1      0      1     
+34. Hermansson, William        BÄC      1      0      1     
+37. Moise, Victor              FR       1      0      1     
+39. Sepulveda, Nahuel          FR       1      0      1     
+53. Stenqvist, Noël            FR       1      0      1     
+7. Roos, Carl-Axel             MÖL      1      0      1     
+8. Wikner Nilsson, Bill        MÖL      1      0      1     
+11. Hermansson, Wille          RÖN      0      1      1     
+12. Kivistö, Elmer             LER      0      1      1     
+13. Hafström, Theo             HOV      0      1      1     
+14. Gustafsson, Loui           KÅL      0      1      1     
+19. Lundqvist, Oscar           HÄR      0      1      1     
+2. Kellett, Edmund             KÅL      0      1      1     
+20. Berggren , Charlie         HOV      0      1      1     
+21. Ivekrans, Linus            HÄR      0      1      1     
+3. Folkssson, Sixten           HOV      0      1      1     
+3. Larsson Fredriksson, William MÖL          0      1      1     
+34. Ternström, Alice           KÅL      0      1      1     
+38. Nilsson, Anton             KÅL      0      1      1     
+4. Heno Qwinten, Leon          LER      0      1      1     
+40. Eriksson, Alexander        FR       0      1      1     
+5. Melander, Liam              RÖN      0      1      1     
+52. Sepulveda, Nahuel          FR       0      1      1     
+6. Hedvall, Max                HOV      0      1      1     
+6. Johansson, Elise            BÄC      0      1      1     
+8. Gottlander , Casper         RÖN      0      1      1     
+8. Jarl, Adam                  LER      0      1      1     
+9. Bredow, Jonathan            MÖL      0      1      1     
+9. Mattsson, Louie             RÖN      0      1      1     
+
+SUMMARY: Total Goals (G), Assists (A), and Points per player (KÅL only)
+Player                         Team     G      A      Points
+------------------------------------------------------------
+29. Frostensson, Viggo         KÅL      5      5      10    
+28. Bergius, Anton             KÅL      4      2      6     
+4. Landervik, Valter           KÅL      3      1      4     
+6. Ruona, Jonathan             KÅL      3      0      3     
+7. Kagelid, Elias              KÅL      3      0      3     
+21. Ternström, Arvid           KÅL      1      2      3     
+16. Bergfeldt, Folke           KÅL      0      3      3     
+19. Sörman, Winston            KÅL      2      0      2     
+27. Boström, Noah              KÅL      1      1      2     
+15. Lember, Max                KÅL      0      2      2     
+13. Svensson Josefsson, Nils   KÅL      1      0      1     
+18. Nilsson, Ludde             KÅL      1      0      1     
+29. Nilsson, Anton             KÅL      1      0      1     
+14. Gustafsson, Loui           KÅL      0      1      1     
+2. Kellett, Edmund             KÅL      0      1      1     
+34. Ternström, Alice           KÅL      0      1      1     
+38. Nilsson, Anton             KÅL      0      1      1     
