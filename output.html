@@ -29,90 +29,81 @@ window.onload = function() {
         .then(r => r.text())
         .then(text => {
             const lines = text.split(/\r?\n/);
-            let html = '';
+            // Collect sections: summary, kal summary, and per-game blocks
+            let sections = [];
+            let current = null;
             let inTable = false;
             let tableRows = [];
-            let sectionTitle = '';
-            let isSummary = false;
-            let isKAL = false;
             let preBlock = [];
             let inPre = false;
+            let isSummary = false;
+            let isKAL = false;
             for (let i = 0; i < lines.length; i++) {
                 const line = lines[i];
-                if (line.startsWith('Source:')) {
-                    if (inPre) {
-                        html += '<pre>' + preBlock.join('\n') + '</pre>';
-                        preBlock = [];
-                        inPre = false;
-                    }
-                    if (inTable) {
-                        html += '<table>' + tableRows.join('') + '</table>';
-                        tableRows = [];
-                        inTable = false;
-                    }
-                    // Make the source URL clickable
-                    const urlMatch = line.match(/Source: (https?:\/\/\S+)/);
-                    if (urlMatch) {
-                        html += `<div class=\"source section-title\"><a href=\"${urlMatch[1]}\" target=\"_blank\">${line}</a></div>`;
-                    } else {
-                        html += `<div class=\"source section-title\">${line}</div>`;
-                    }
-                    isSummary = false;
-                    isKAL = false;
-                } else if (line.startsWith('SUMMARY:')) {
-                    if (inPre) {
-                        html += '<pre>' + preBlock.join('\n') + '</pre>';
-                        preBlock = [];
-                        inPre = false;
-                    }
-                    if (inTable) {
-                        html += '<table>' + tableRows.join('') + '</table>';
-                        tableRows = [];
-                        inTable = false;
-                    }
+                if (line.startsWith('SUMMARY:')) {
+                    if (current) sections.push(current);
+                    current = { type: line.includes('(KÅL only)') ? 'kal-summary' : 'summary', title: line, table: [], tableRows: [], inTable: false };
                     isSummary = true;
                     isKAL = line.includes('(KÅL only)');
-                    html += `<div class="section-title${isKAL ? ' team-kal' : ''}">${line}</div>`;
+                } else if (line.startsWith('Source:')) {
+                    if (current) sections.push(current);
+                    current = { type: 'pergame', source: line, pre: [] };
+                    isSummary = false;
+                    isKAL = false;
                 } else if (/^Player\s+Team/.test(line)) {
-                    if (!isSummary) {
+                    if (current && current.type === 'pergame') {
+                        current.pre.push(line);
                         inPre = true;
-                        preBlock.push(line);
-                    } else {
-                        inTable = true;
+                    } else if (current && (current.type === 'summary' || current.type === 'kal-summary')) {
+                        current.inTable = true;
                         let headers = line.trim().split(/\s{2,}/);
-                        // Fallback for summary tables (already handled)
                         if (headers.length > 1 && headers[headers.length - 1] === 'Goals/Assists') {
                             headers.splice(headers.length - 1, 1);
                             headers.push('');
                             headers.push('Goals/Assists');
                         }
                         let ths = headers.map(h => `<th>${h}</th>`).join('');
-                        tableRows.push('<tr>' + ths + '</tr>');
+                        current.tableRows.push('<tr>' + ths + '</tr>');
                     }
                 } else if (/^-{5,}/.test(line)) {
-                    if (inPre) preBlock.push(line);
-                    // skip separator for tables
-                } else if (inPre && line.trim()) {
-                    preBlock.push(line);
-                } else if (inPre && !line.trim()) {
-                    html += '<pre>' + preBlock.join('\n') + '</pre>';
-                    preBlock = [];
+                    if (current && current.type === 'pergame' && inPre) current.pre.push(line);
+                } else if (inPre && current && current.type === 'pergame' && line.trim()) {
+                    current.pre.push(line);
+                } else if (inPre && current && current.type === 'pergame' && !line.trim()) {
                     inPre = false;
-                } else if (inTable && line.trim()) {
-                    let tds = line.trim().split(/\s{2,}/).map((d, idx) => `<td${isSummary && idx === 1 && isKAL ? ' class=\"team-kal\"' : ''}>${d}</td>`).join('');
-                    tableRows.push('<tr>' + tds + '</tr>');
-                } else if (inTable && !line.trim()) {
-                    html += '<table>' + tableRows.join('') + '</table>';
-                    tableRows = [];
-                    inTable = false;
+                } else if (current && (current.type === 'summary' || current.type === 'kal-summary') && current.inTable && line.trim()) {
+                    let tds = line.trim().split(/\s{2,}/).map((d, idx) => `<td${isKAL && idx === 1 ? ' class=\"team-kal\"' : ''}>${d}</td>`).join('');
+                    current.tableRows.push('<tr>' + tds + '</tr>');
+                } else if (current && (current.type === 'summary' || current.type === 'kal-summary') && current.inTable && !line.trim()) {
+                    current.inTable = false;
                 }
             }
-            if (inPre) {
-                html += '<pre>' + preBlock.join('\n') + '</pre>';
+            if (current) sections.push(current);
+
+            // Reorder: summary, kal-summary, then pergame
+            let summary = sections.find(s => s.type === 'summary');
+            let kalSummary = sections.find(s => s.type === 'kal-summary');
+            let perGames = sections.filter(s => s.type === 'pergame');
+
+            let html = '';
+            if (summary) {
+                html += `<div class=\"section-title\">${summary.title}</div>`;
+                html += '<table>' + summary.tableRows.join('') + '</table>';
             }
-            if (inTable) {
-                html += '<table>' + tableRows.join('') + '</table>';
+            if (kalSummary) {
+                html += `<div class=\"section-title team-kal\">${kalSummary.title}</div>`;
+                html += '<table>' + kalSummary.tableRows.join('') + '</table>';
             }
+            perGames.forEach(pg => {
+                // Source as clickable link
+                const urlMatch = pg.source.match(/Source: (https?:\/\/\S+)/);
+                if (urlMatch) {
+                    html += `<div class=\"source section-title\"><a href=\"${urlMatch[1]}\" target=\"_blank\">${pg.source}</a></div>`;
+                } else {
+                    html += `<div class=\"source section-title\">${pg.source}</div>`;
+                }
+                html += '<pre>' + pg.pre.join('\n') + '</pre>';
+            });
             content.innerHTML = html;
         });
 };
