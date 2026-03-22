@@ -34,3 +34,5 @@
 - The summary table is titled "Poängliga U14P" and appears at the top of the HTML output, followed by the KÅL-only summary, then all per-game tables.
 - Per-game tables are rendered as preformatted text to match the layout of `output.txt`.
 
+## Open in browser
+https://pternstr.github.io/ksk2026/results.html
