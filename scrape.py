@@ -52,6 +52,7 @@ if __name__ == "__main__":
         with open("results.json", "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
 
+        # --- Generate points_tables.json for all rounds ---
         def calculate_points_table(data, rounds, label):
             points = {}
             stats = {}
@@ -104,26 +105,35 @@ if __name__ == "__main__":
                         points[team2] = points.get(team2, 0) + 1
                         stats[team1]['T'] += 1
                         stats[team2]['T'] += 1
-            print(f"\nPoints Table After {label}:")
+            # Prepare table for JSON output
             sorted_pts = sorted(points.items(), key=lambda x: (x[1], stats[x[0]]['GF'] - stats[x[0]]['GA']), reverse=True)
-            print(f"{'Team':<25} {'GP':<4} {'W':<4} {'T':<4} {'L':<4} {'GF:GA (diff)':<14} {'Points':<6}")
+            table = {
+                "title": f"Points Table After {label}",
+                "rows": []
+            }
             for team, pts in sorted_pts:
                 s = stats[team]
                 diff = s['GF'] - s['GA']
                 gfga = f"{s['GF']}:{s['GA']} ({diff:+d})"
-                print(f"{team:<25} {s['GP']:<4} {s['W']:<4} {s['T']:<4} {s['L']:<4} {gfga:<14} {pts:<6}")
+                table["rows"].append({
+                    "Team": team,
+                    "GP": s['GP'],
+                    "W": s['W'],
+                    "T": s['T'],
+                    "L": s['L'],
+                    "GFGA": gfga,
+                    "Points": pts
+                })
+            return table
 
-        calculate_points_table(data, [1], 'Round 1')        
-        calculate_points_table(data, [1,2], 'Round 2')
-        calculate_points_table(data, [1,2,3], 'Round 3')
-        calculate_points_table(data, [1,2,3,4], 'Round 4')
-        calculate_points_table(data, [1,2,3,4,5], 'Round 5')
-        calculate_points_table(data, [1,2,3,4,5,6], 'Round 6')
-        calculate_points_table(data, [1,2,3,4,5,6,7], 'Round 7')
-        calculate_points_table(data, [1,2,3,4,5,6,7,8], 'Round 8')
-        calculate_points_table(data, [1,2,3,4,5,6,7,8,9], 'Round 9')
-        calculate_points_table(data, [1,2,3,4,5,6,7,8,9,10], 'Round 10')
-        calculate_points_table(data, [1,2,3,4,5,6,7,8,9,10,11], 'Round 11')
-        calculate_points_table(data, [1,2,3,4,5,6,7,8,9,10,11,12], 'Round 12')
-        calculate_points_table(data, [1,2,3,4,5,6,7,8,9,10,11,12,13], 'Round 13')
-        calculate_points_table(data, [1,2,3,4,5,6,7,8,9,10,11,12,13,14], 'Round 14')
+        # Generate all points tables for rounds 1-14
+        all_tables = []
+        for i in range(1, 15):
+            rounds = list(range(1, i+1))
+            label = f"Round {i}"
+            table = calculate_points_table(data, rounds, label)
+            all_tables.append(table)
+
+        # Write points_tables.json
+        with open("points_tables.json", "w", encoding="utf-8") as f:
+            json.dump(all_tables, f, ensure_ascii=False, indent=2)
