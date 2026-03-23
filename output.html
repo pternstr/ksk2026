@@ -22,89 +22,130 @@
 <!-- Generated from output.txt -->
 
 <script>
-// This script will convert the plain text output into HTML tables for each section.
+// This script will convert the plain text output into HTML tables for each section, and also append penalty minutes tables.
 window.onload = function() {
     const content = document.getElementById('content');
-    fetch('output.txt')
-        .then(r => r.text())
-        .then(text => {
-            const lines = text.split(/\r?\n/);
-            // Collect sections: summary, kal summary, and per-game blocks
-            let sections = [];
-            let current = null;
-            let inTable = false;
-            let tableRows = [];
-            let preBlock = [];
-            let inPre = false;
-            let isSummary = false;
-            let isKAL = false;
-            for (let i = 0; i < lines.length; i++) {
-                const line = lines[i];
-                if (line.startsWith('SUMMARY:')) {
-                    if (current) sections.push(current);
-                    current = { type: line.includes('(KÅL only)') ? 'kal-summary' : 'summary', title: line, table: [], tableRows: [], inTable: false };
-                    isSummary = true;
-                    isKAL = line.includes('(KÅL only)');
-                } else if (line.startsWith('Source:')) {
-                    if (current) sections.push(current);
-                    current = { type: 'pergame', source: line, pre: [] };
-                    isSummary = false;
-                    isKAL = false;
-                } else if (/^Player\s+Team/.test(line)) {
-                    if (current && current.type === 'pergame') {
-                        current.pre.push(line);
-                        inPre = true;
-                    } else if (current && (current.type === 'summary' || current.type === 'kal-summary')) {
-                        current.inTable = true;
-                        let headers = line.trim().split(/\s{2,}/);
-                        if (headers.length > 1 && headers[headers.length - 1] === 'Goals/Assists') {
-                            headers.splice(headers.length - 1, 1);
-                            headers.push('');
-                            headers.push('Goals/Assists');
-                        }
-                        let ths = headers.map(h => `<th>${h}</th>`).join('');
-                        current.tableRows.push('<tr>' + ths + '</tr>');
-                    }
-                } else if (/^-{5,}/.test(line)) {
-                    if (current && current.type === 'pergame' && inPre) current.pre.push(line);
-                } else if (inPre && current && current.type === 'pergame' && line.trim()) {
+    // Fetch both output.txt and penalty_minutes_summary.txt in parallel
+    Promise.all([
+        fetch('output.txt').then(r => r.text()),
+        fetch('penalty_minutes_summary.txt').then(r => r.text())
+    ]).then(([outputText, penaltyText]) => {
+        // --- Process output.txt as before ---
+        const lines = outputText.split(/\r?\n/);
+        let sections = [];
+        let current = null;
+        let inTable = false;
+        let tableRows = [];
+        let preBlock = [];
+        let inPre = false;
+        let isSummary = false;
+        let isKAL = false;
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i];
+            if (line.startsWith('SUMMARY:')) {
+                if (current) sections.push(current);
+                current = { type: line.includes('(KÅL only)') ? 'kal-summary' : 'summary', title: line, table: [], tableRows: [], inTable: false };
+                isSummary = true;
+                isKAL = line.includes('(KÅL only)');
+            } else if (line.startsWith('Source:')) {
+                if (current) sections.push(current);
+                current = { type: 'pergame', source: line, pre: [] };
+                isSummary = false;
+                isKAL = false;
+            } else if (/^Player\s+Team/.test(line)) {
+                if (current && current.type === 'pergame') {
                     current.pre.push(line);
-                } else if (inPre && current && current.type === 'pergame' && !line.trim()) {
-                    inPre = false;
-                } else if (current && (current.type === 'summary' || current.type === 'kal-summary') && current.inTable && line.trim()) {
-                    let tds = line.trim().split(/\s{2,}/).map((d, idx) => `<td${isKAL && idx === 1 ? ' class=\"team-kal\"' : ''}>${d}</td>`).join('');
-                    current.tableRows.push('<tr>' + tds + '</tr>');
-                } else if (current && (current.type === 'summary' || current.type === 'kal-summary') && current.inTable && !line.trim()) {
-                    current.inTable = false;
+                    inPre = true;
+                } else if (current && (current.type === 'summary' || current.type === 'kal-summary')) {
+                    current.inTable = true;
+                    let headers = line.trim().split(/\s{2,}/);
+                    if (headers.length > 1 && headers[headers.length - 1] === 'Goals/Assists') {
+                        headers.splice(headers.length - 1, 1);
+                        headers.push('');
+                        headers.push('Goals/Assists');
+                    }
+                    let ths = headers.map(h => `<th>${h}</th>`).join('');
+                    current.tableRows.push('<tr>' + ths + '</tr>');
                 }
+            } else if (/^-{5,}/.test(line)) {
+                if (current && current.type === 'pergame' && inPre) current.pre.push(line);
+            } else if (inPre && current && current.type === 'pergame' && line.trim()) {
+                current.pre.push(line);
+            } else if (inPre && current && current.type === 'pergame' && !line.trim()) {
+                inPre = false;
+            } else if (current && (current.type === 'summary' || current.type === 'kal-summary') && current.inTable && line.trim()) {
+                let tds = line.trim().split(/\s{2,}/).map((d, idx) => `<td${isKAL && idx === 1 ? ' class="team-kal"' : ''}>${d}</td>`).join('');
+                current.tableRows.push('<tr>' + tds + '</tr>');
+            } else if (current && (current.type === 'summary' || current.type === 'kal-summary') && current.inTable && !line.trim()) {
+                current.inTable = false;
             }
-            if (current) sections.push(current);
+        }
+        if (current) sections.push(current);
 
-            // Reorder: summary, kal-summary, then pergame
-            let summary = sections.find(s => s.type === 'summary');
-            let kalSummary = sections.find(s => s.type === 'kal-summary');
-            let perGames = sections.filter(s => s.type === 'pergame');
+        // Reorder: summary, kal-summary, then pergame
+        let summary = sections.find(s => s.type === 'summary');
+        let kalSummary = sections.find(s => s.type === 'kal-summary');
+        let perGames = sections.filter(s => s.type === 'pergame');
 
-            let html = '';
-            if (summary) {
-                html += `<div class=\"section-title\">Poängliga U14P</div>`;
-                html += '<table>' + summary.tableRows.join('') + '</table>';
+        let html = '';
+        if (summary) {
+            html += `<div class=\"section-title\">Poängliga U14P</div>`;
+            html += '<table>' + summary.tableRows.join('') + '</table>';
+        }
+        if (kalSummary) {
+            html += `<div class=\"section-title team-kal\">${kalSummary.title}</div>`;
+            html += '<table>' + kalSummary.tableRows.join('') + '</table>';
+        }
+        perGames.forEach(pg => {
+            // Source as clickable link
+            const urlMatch = pg.source.match(/Source: (https?:\/\/\S+)/);
+            if (urlMatch) {
+                html += `<div class=\"source section-title\"><a href=\"${urlMatch[1]}\" target=\"_blank\">${pg.source}</a></div>`;
+            } else {
+                html += `<div class=\"source section-title\">${pg.source}</div>`;
             }
-            if (kalSummary) {
-                html += `<div class=\"section-title team-kal\">${kalSummary.title}</div>`;
-                html += '<table>' + kalSummary.tableRows.join('') + '</table>';
-            }
-            perGames.forEach(pg => {
-                // Source as clickable link
-                const urlMatch = pg.source.match(/Source: (https?:\/\/\S+)/);
-                if (urlMatch) {
-                    html += `<div class=\"source section-title\"><a href=\"${urlMatch[1]}\" target=\"_blank\">${pg.source}</a></div>`;
-                } else {
-                    html += `<div class=\"source section-title\">${pg.source}</div>`;
-                }
-                html += '<pre>' + pg.pre.join('\n') + '</pre>';
-            });
-            content.innerHTML = html;
+            html += '<pre>' + pg.pre.join('\n') + '</pre>';
         });
+
+        // --- Now append penalty minutes tables ---
+        function parsePenaltyTable(sectionTitle, lines) {
+            let rows = [];
+            let inTable = false;
+            for (const line of lines) {
+                if (/^Player\s+Total Minutes/.test(line)) {
+                    inTable = true;
+                    rows.push('<tr><th>Player</th><th>Total Minutes</th></tr>');
+                } else if (/^-{5,}/.test(line)) {
+                    continue;
+                } else if (inTable && line.trim()) {
+                    // Split by last group of spaces
+                    let m = line.match(/^(.*?)(\s{2,}|\s{1,})(\d+)$/);
+                    if (m) {
+                        let player = m[1].trim();
+                        let mins = m[3];
+                        rows.push(`<tr><td>${player}</td><td>${mins}</td></tr>`);
+                    }
+                } else if (inTable && !line.trim()) {
+                    break;
+                }
+            }
+            if (rows.length > 1) {
+                return `<div class="section-title">${sectionTitle}</div><table>${rows.join('')}</table>`;
+            }
+            return '';
+        }
+
+        // Split into sections
+        const penaltyLines = penaltyText.split(/\r?\n/);
+        let idx2 = penaltyLines.findIndex(l => l.startsWith('5 min penalties'));
+        let twoMinSection = penaltyLines.slice(0, idx2);
+        let fiveMinSection = penaltyLines.slice(idx2);
+        let twoMinTable = parsePenaltyTable('2 min penalties', twoMinSection);
+        let fiveMinTable = parsePenaltyTable('5 min penalties', fiveMinSection);
+
+        html += twoMinTable + fiveMinTable;
+        content.innerHTML = html;
+    });
 };
 </script>
+
