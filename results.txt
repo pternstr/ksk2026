@@ -53,5 +53,5 @@ Round  Date                 Game                                     Result   Sp
        2026-03-14 12:00     Hovås HC - Kållered SK                   1 - 1    74         Askims Ishall       
 14     2026-02-27 18:30     Rönnängs IK - Härryda HC                 0 - 10              Tjörns Ishall       
        2026-03-17 19:00     Kållered SK - Frölunda HC N              2 - 4               Kållereds Ishall    
-       2026-03-18 19:00     Bäcken HC - Hovås HC                                         Marconihallen       
-       2026-03-21 19:30     Lerums BK - IF Mölndal Hockey                                Vättlehallen        
+       2026-03-18 19:00     Bäcken HC - Hovås HC                     5 - 1               Marconihallen       
+       2026-03-21 19:30     Lerums BK - IF Mölndal Hockey            7 - 1               Vättlehallen        

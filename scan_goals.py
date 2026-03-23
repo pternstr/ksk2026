@@ -6,7 +6,6 @@ import re
 import requests
 from bs4 import BeautifulSoup
 import json
-from game_info_helper import get_game_info
 
 
 # Read html.html and extract all URLs containing 10829
@@ -121,8 +120,7 @@ for url in urls:
         all_tables.append("")  # Blank line between tables
     except Exception as e:
         print(f"Error fetching {url}: {e}")
-        all_tables.append(f"Error fetching {url}: {e}")
-        all_tables.append("")
+        # Do not write errors to all_tables/output.txt
 
 # Write all tables to output.txt
 with open("output.txt", "w", encoding="utf-8") as f:

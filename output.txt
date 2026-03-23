@@ -681,6 +681,32 @@ Player                         Team(s)          Goal   Assist Points Goals/Assis
 11. Gäärd, Viggo               LER              0      1      1      0-2 (A)                                 
 3. Rapp, Brodde                LER              1      0      1      0-1 (G)                                 
 
+Source: https://stats.swehockey.se/Game/Events/1082978
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+53. Rosén, Tim                 BÄC              1      2      3      3-1 (G), 2-1 (A), 1-1 (A)               
+2. Palmerén, Leon              BÄC              0      2      2      5-1 (A), 3-1 (A)                        
+10. Nyström, Abbe              BÄC              1      1      2      5-1 (A), 4-1 (G)                        
+13. Dahlstrand, Valdemar       BÄC              1      1      2      4-1 (A), 2-1 (G)                        
+4. Ek, Simon                   BÄC              1      0      1      5-1 (G)                                 
+16. Dellenmark, Emrick         BÄC              1      0      1      1-1 (G)                                 
+9. Hansson Fondin, Fabian      HOV              1      0      1      0-1 (G)                                 
+10. Strömwall, Dante           HOV              0      1      1      0-1 (A)                                 
+
+Source: https://stats.swehockey.se/Game/Events/1082979
+
+Player                         Team(s)          Goal   Assist Points Goals/Assists                           
+--------------------------------------------------------------------------------------------------------------
+24. Andersson, Douglas         LER              3      2      5      7-1 (A), 5-1 (G), 4-1 (G), 2-0 (A), 1-0 (G)
+11. Gäärd, Viggo               LER              1      4      5      7-1 (A), 6-1 (A), 5-1 (A), 2-0 (G), 1-0 (A)
+27. Perez, Milo                LER              2      2      4      7-1 (G), 6-1 (A), 3-0 (G), 1-0 (A)      
+20. Fihn, Anton                LER              0      3      3      5-1 (A), 3-0 (A), 2-0 (A)               
+25. Andersson, Alfred          LER              1      1      2      6-1 (G), 4-1 (A)                        
+28. Hellström, Emil            LER              0      1      1      4-1 (A)                                 
+6. Lindskog, Ebbe              MÖL              1      0      1      3-1 (G)                                 
+3. Rapp, Brodde                LER              0      1      1      3-0 (A)                                 
+
 Source: https://stats.swehockey.se/Game/Events/1082980
 
 Player                         Team(s)          Goal   Assist Points Goals/Assists                           
@@ -711,37 +737,38 @@ Player                         Team(s)          Goal   Assist Points Goals/Assis
 SUMMARY: Total Goals (G), Assists (A), and Points per player
 Player                         Team     G      A      Points
 ------------------------------------------------------------
-24. Andersson, Douglas         LER      25     12     37    
+24. Andersson, Douglas         LER      28     14     42    
 55. Liljebjörn, Milo           FR       19     18     37    
 47. Reuterdahl, Vincent        FR       24     11     35    
-11. Gäärd, Viggo               LER      9      13     22    
+11. Gäärd, Viggo               LER      10     17     27    
 28. Manninger, Liam            HÄR      11     10     21    
+27. Perez, Milo                LER      8      13     21    
 14. Garpenfors, Nils           HOV      14     6      20    
+10. Nyström, Abbe              BÄC      10     9      19    
 9. Hedell, Loui                HÄR      12     5      17    
-10. Nyström, Abbe              BÄC      9      8      17    
-27. Perez, Milo                LER      6      11     17    
 48. Hagström, Oskar            FR       5      11     16    
+53. Rosén, Tim                 BÄC      6      9      15    
 68. Andersson, Gabriel         FR       7      7      14    
 19. Olvesjö, Noah              RÖN      7      6      13    
 21. Mattsson, Ivar             HOV      3      10     13    
-53. Rosén, Tim                 BÄC      5      7      12    
+13. Dahlstrand, Valdemar       BÄC      9      2      11    
 22. Ottosson, Sam              HOV      7      4      11    
 17. Axelsson, Gustav           RÖN      4      7      11    
+20. Fihn, Anton                LER      3      8      11    
 42. Gunes, Leonel              FR       3      8      11    
 21. Carlsson, Hjalmar          MÖL      9      1      10    
 25. Farahmand, Viktor          HOV      5      5      10    
 29. Frostensson, Viggo         KÅL      5      5      10    
 65. Wier, Fred                 FR       5      5      10    
-13. Dahlstrand, Valdemar       BÄC      8      1      9     
+3. Rapp, Brodde                LER      2      8      10    
 7. Gulliksson Orre, Rasmus     HÄR      3      6      9     
-3. Rapp, Brodde                LER      2      7      9     
 15. Johansson Alsnäs, Helmer   HOV      3      5      8     
 18. Geft, Love                 RÖN      3      5      8     
-20. Fihn, Anton                LER      3      5      8     
 29. Valuyskikh, Georgy         HÄR      3      5      8     
 24. Vikström, Filip            HOV      2      6      8     
 10. Lindqvist, Johan           HÄR      5      2      7     
 21. Johannson, Tom             RÖN      4      3      7     
+25. Andersson, Alfred          LER      4      3      7     
 15. Sjölin, Oliver             RÖN      3      4      7     
 41. Farinder, Leon             FR       2      5      7     
 16. Rutgersson, William        RÖN      5      1      6     
@@ -749,25 +776,26 @@ Player                         Team     G      A      Points
 28. Bergius, Anton             KÅL      4      2      6     
 7. Zotterman, Nils             BÄC      4      2      6     
 22. Örneflo, Lionel            HÄR      3      3      6     
+28. Hellström, Emil            LER      3      3      6     
 18. Anglerot, Ludwig           MÖL      4      1      5     
-25. Andersson, Alfred          LER      3      2      5     
-28. Hellström, Emil            LER      3      2      5     
+4. Ek, Simon                   BÄC      3      2      5     
 16. Hällqvist, Ebbe            MÖL      2      3      5     
 2. Vikström, Noa               LER      4      0      4     
 12. Johansson, Charlie         RÖN      3      1      4     
 4. Landervik, Valter           KÅL      3      1      4     
 11. Stenström, Oskar           BÄC      2      2      4     
 2. Tallvik, Frank              RÖN      2      2      4     
-4. Ek, Simon                   BÄC      2      2      4     
 5. Nosrati Manesh, Ramin       MÖL      2      2      4     
 57. Valkola, Edvin             BÄC      2      2      4     
 13. Wennberg, Junior           RÖN      1      3      4     
 6. Olander, Casper             LER      1      3      4     
 8. Aagaard, Kalle              BÄC      1      3      4     
+10. Strömwall, Dante           HOV      0      4      4     
 17. Viking, Gustav             BÄC      0      4      4     
 17. Lorentzon, Elias           HOV      3      0      3     
 6. Ruona, Jonathan             KÅL      3      0      3     
 7. Kagelid, Elias              KÅL      3      0      3     
+16. Dellenmark, Emrick         BÄC      2      1      3     
 11. Benzler Svensson, Morris   MÖL      1      2      3     
 11. Berggren, Melvin           HÄR      1      2      3     
 15. Meyer, Sigge               MÖL      1      2      3     
@@ -775,7 +803,6 @@ Player                         Team     G      A      Points
 21. Ternström, Arvid           KÅL      1      2      3     
 23. Rehnström, Johan           HOV      1      2      3     
 44. Stocks, Vincent            BÄC      1      2      3     
-10. Strömwall, Dante           HOV      0      3      3     
 12. Broberg, Lukas             MÖL      0      3      3     
 16. Bergfeldt, Folke           KÅL      0      3      3     
 22. Kruus, Clara               MÖL      0      3      3     
@@ -787,7 +814,6 @@ Player                         Team     G      A      Points
 44. Andersson, Gabriel         FR       2      0      2     
 12. Almsparre, Vilhelm         HOV      1      1      2     
 13. Larsson Fredriksson, William MÖL          1      1      2     
-16. Dellenmark, Emrick         BÄC      1      1      2     
 17. Sundbrandt, Nils           HÄR      1      1      2     
 26. Dalvin, Lucas              HÄR      1      1      2     
 27. Boström, Noah              KÅL      1      1      2     
@@ -799,6 +825,7 @@ Player                         Team     G      A      Points
 8. Thorin, Nils                HÄR      1      1      2     
 9. Ghanbari, Leonel            BÄC      1      1      2     
 15. Lember, Max                KÅL      0      2      2     
+2. Palmerén, Leon              BÄC      0      2      2     
 4. Ljusteräng, Filip           FR       0      2      2     
 10. Ganemyr, Hugo              RÖN      1      0      1     
 13. Svensson Josefsson, Nils   KÅL      1      0      1     
@@ -811,8 +838,10 @@ Player                         Team     G      A      Points
 37. Moise, Victor              FR       1      0      1     
 39. Sepulveda, Nahuel          FR       1      0      1     
 53. Stenqvist, Noël            FR       1      0      1     
+6. Lindskog, Ebbe              MÖL      1      0      1     
 7. Roos, Carl-Axel             MÖL      1      0      1     
 8. Wikner Nilsson, Bill        MÖL      1      0      1     
+9. Hansson Fondin, Fabian      HOV      1      0      1     
 11. Hermansson, Wille          RÖN      0      1      1     
 12. Kivistö, Elmer             LER      0      1      1     
 13. Hafström, Theo             HOV      0      1      1     
