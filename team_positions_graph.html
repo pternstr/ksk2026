@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Team Positions by Round</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f8f8f8; color: #222; }
+    #chart-container { max-width: 900px; margin: 40px auto; background: #fff; padding: 24px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
+    h1 { text-align: center; }
+  </style>
+</head>
+<body>
+  <h1>Team Positions After Each Round</h1>
+  <div id="chart-container">
+    <canvas id="positionsChart" height="400"></canvas>
+  </div>
+  <script>
+    fetch('points_tables.json')
+      .then(r => r.json())
+      .then(pointsTables => {
+        // Build a map: team -> [position per round]
+        const teamPositions = {};
+        const rounds = pointsTables.length;
+        pointsTables.forEach((table, roundIdx) => {
+          table.rows.forEach((row, i) => {
+            const team = row.Team;
+            if (!teamPositions[team]) teamPositions[team] = [];
+            // Position is i+1 (1-based)
+            teamPositions[team][roundIdx] = i + 1;
+          });
+        });
+        // Prepare data for Chart.js
+        const labels = pointsTables.map((t, i) => `R${i+1}`);
+        const datasets = Object.entries(teamPositions).map(([team, positions], idx) => ({
+          label: team,
+          data: positions,
+          fill: false,
+          borderColor: `hsl(${(idx*47)%360},70%,50%)`,
+          backgroundColor: `hsl(${(idx*47)%360},70%,50%)`,
+          tension: 0.2,
+          pointRadius: 3,
+          pointHoverRadius: 6
+        }));
+        // Chart.js config
+        new Chart(document.getElementById('positionsChart').getContext('2d'), {
+          type: 'line',
+          data: { labels, datasets },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: { position: 'right' },
+              title: { display: true, text: 'Team Position by Round (Lower is Better)' }
+            },
+            scales: {
+              y: {
+                reverse: true,
+                beginAtZero: false,
+                min: 1,
+                ticks: { stepSize: 1, precision: 0 }
+              },
+              x: { title: { display: true, text: 'Round' } }
+            },
+            interaction: { mode: 'nearest', axis: 'x', intersect: false }
+          }
+        });
+      });
+  </script>
+</body>
+</html>
